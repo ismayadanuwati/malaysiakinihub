@@ -1018,7 +1018,6 @@ body,html{overflow:hidden}
          <script>
             document.write(&quot;&lt;script src=\&quot;/feeds/posts/default?max-results=&quot;+numosts11+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts1\&quot;&gt;&lt;\/script&gt;&quot;);
          </script>
-         </script>
       </div>
    </div>
 <div class='clear'/>
