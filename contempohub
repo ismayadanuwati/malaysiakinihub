@@ -924,11 +924,11 @@ url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http:
   <body>
     <div class='header'>
     <center><b:section class='container' id='header' name='Header' showaddelement='false'>
-  <b:widget id='Header1' locked='true' title='aispod (Header)' type='Header' version='2' visible='true'>
+  <b:widget id='Header1' locked='true' title='kertastiviti (Header)' type='Header' version='2' visible='true'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>600</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
       <b:widget-setting name='useImage'>false</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -1055,7 +1055,19 @@ url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http:
               </div>
             </header>
             <div>
-              <b:section ads='true' class='vertical-ad-container' id='ads' name='Ads' showaddelement='false'/>
+              <b:section ads='true' class='vertical-ad-container' id='ads' name='Ads' showaddelement='false'>
+                <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
+                  <b:widget-settings>
+                    <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+                  </b:widget-settings>
+                  <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+                </b:widget>
+              </b:section>
               <main class='centered-bottom' id='main' role='main' tabindex='-1'>
                 <b:if cond='data:view.isMultipleItems'>
                   <h2 class='main-heading'><data:messages.posts/></h2>
@@ -1406,29 +1418,28 @@ url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http:
                   </b:widget>
                   <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
                     <b:widget-settings>
+                      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                       <b:widget-setting name='commentLabel'>comments</b:widget-setting>
+                      <b:widget-setting name='style.textcolor'>#2196f3</b:widget-setting>
                       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
                       <b:widget-setting name='authorLabel'/>
-                      <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
-                      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-                      <b:widget-setting name='timestampLabel'/>
-                      <b:widget-setting name='reactionsLabel'/>
-                      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-                      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-                      <b:widget-setting name='showLocation'>false</b:widget-setting>
-                      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-                      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-                      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-                      <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-                      <b:widget-setting name='style.textcolor'>#2196f3</b:widget-setting>
                       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
                       <b:widget-setting name='style.urlcolor'>#424242</b:widget-setting>
                       <b:widget-setting name='showAuthor'>true</b:widget-setting>
                       <b:widget-setting name='style.linkcolor'>#757575</b:widget-setting>
+                      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='timestampLabel'/>
+                      <b:widget-setting name='reactionsLabel'/>
+                      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                       <b:widget-setting name='showLabels'>true</b:widget-setting>
+                      <b:widget-setting name='showLocation'>false</b:widget-setting>
                       <b:widget-setting name='postLabelsLabel'/>
+                      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+                      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
                       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='showInlineAds'>false</b:widget-setting>
                       <b:widget-setting name='showReactions'>false</b:widget-setting>
                     </b:widget-settings>
@@ -2622,7 +2633,7 @@ url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http:
   </div>
 </b:includable>
                   </b:widget>
-                  <b:widget id='Label1' locked='false' title='Label' type='Label' version='2' visible='true'>
+                  <b:widget id='Label1' locked='false' title='Label' type='Label' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                       <b:widget-setting name='display'>CLOUD</b:widget-setting>
