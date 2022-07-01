@@ -2893,7 +2893,7 @@ body.item-view .cmt_iframe_holder{
       <nav class='navbar navbar-expand-xl navbar-dark dark-skin fbt_sticky_nav'>
         <div class='container nav-mobile-px clearfix'>
           <b:section class='navbar-brand order-2 order-xl-1 m-auto' id='header-logo' maxwidgets='1' name='Logo' showaddelement='yes'>
-            <b:widget id='Header1' locked='true' title='marangsenja (Header)' type='Header' version='2' visible='true'>
+            <b:widget id='Header1' locked='true' title='tadbirnegeri (Header)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'/>
                 <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -3075,7 +3075,6 @@ body.item-view .cmt_iframe_holder{
                     <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
                     <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                     <b:widget-setting name='authorLabel'>Posted by:</b:widget-setting>
-                    <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
                     <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                     <b:widget-setting name='timestampLabel'/>
                     <b:widget-setting name='reactionsLabel'/>
@@ -3906,6 +3905,17 @@ body.item-view .cmt_iframe_holder{
                 <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan300/tigaratus.js"> </script>]]></b:widget-setting>
+                  </b:widget-settings>
+                  <b:includable id='main'>
+          <b:include name='widget-title'/>
+          <div class='html-widget-content'>
+            <data:content/>
+          </div>
+        </b:includable>
+                </b:widget>
+                <b:widget id='HTML3' locked='false' title='' type='HTML' visible='true'>
+                  <b:widget-settings>
+                    <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
           <b:include name='widget-title'/>
