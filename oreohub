@@ -600,7 +600,7 @@ color: rgba(255,255,255,1);
 <div class='full-row clearfloat' id='header-area'>
 <div id='menu-icon'><svg id='icon-home' viewBox='0 0 24 24'><path d='M1 17h22v2h-22v-2zm0-12v2h22v-2h-22zm0 8h22v-2h-22v2z'/></svg></div>
 <b:section id='header-wrapper' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='keretaidola (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='kubangsuka (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -704,7 +704,7 @@ color: rgba(255,255,255,1);
 <!-- iklan -->
       <div id='iklan-atas'><b:if cond='data:blog.searchQuery or data:blog.pageType == &quot;static_page&quot;'><b:else/>
         <b:section class='iklan-atas section' id='iklan-atas-1' maxwidgets='1' showaddelement='yes'>
-          <b:widget id='HTML1' locked='false' title='' type='HTML' version='1'>
+          <b:widget id='HTML1' locked='false' title='' type='HTML'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan729/iklanya.js"> </script>]]></b:widget-setting>
             </b:widget-settings>
@@ -727,31 +727,30 @@ color: rgba(255,255,255,1);
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 </b:if>
         <b:section class='main' id='main' showaddelement='no'>
-          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+          <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
             <b:widget-settings>
+              <b:widget-setting name='showDateHeader'>true</b:widget-setting>
               <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
               <b:widget-setting name='showShareButtons'>false</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
-              <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
-              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-              <b:widget-setting name='timestampLabel'>on</b:widget-setting>
-              <b:widget-setting name='reactionsLabel'/>
-              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
-              <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-              <b:widget-setting name='showLocation'>false</b:widget-setting>
-              <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-              <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
               <b:widget-setting name='showCommentLink'>false</b:widget-setting>
               <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
               <b:widget-setting name='showAuthor'>true</b:widget-setting>
               <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='timestampLabel'>on</b:widget-setting>
+              <b:widget-setting name='reactionsLabel'/>
+              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+              <b:widget-setting name='style.layout'>1x1</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>
+              <b:widget-setting name='showLocation'>false</b:widget-setting>
               <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
+              <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+              <b:widget-setting name='postsPerAd'>1</b:widget-setting>
               <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
               <b:widget-setting name='showReactions'>false</b:widget-setting>
             </b:widget-settings>
@@ -1730,7 +1729,24 @@ if (hash.length &gt; 8) {
 </div> <!-- end content-wrapper -->
 <!-- iklan -->
       <div id='iklan-bawah'><b:if cond='data:blog.searchQuery or data:blog.pageType == &quot;static_page&quot;'><b:else/>
-        <b:section class='iklan-bawah section' id='iklan-bawah-1' maxwidgets='1' showaddelement='yes'/>
+        <b:section class='iklan-bawah section' id='iklan-bawah-1' maxwidgets='1' showaddelement='yes'>
+          <b:widget id='HTML3' locked='false' title='' type='HTML'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+          </b:widget>
+        </b:section>
         </b:if></div>
 </div><!-- end outer-wrapper -->
 <div class='clear'/>
