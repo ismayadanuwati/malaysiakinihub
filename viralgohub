@@ -682,7 +682,7 @@ url=urlparts[0]+(pars.length>0?'?'+pars.join('&'):"");return url}else{return url
         <div class='header-content'>
           <div class='header-title'>
             <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
-              <b:widget id='Header1' locked='true' title='metrobalakong (Header)' type='Header' version='1'>
+              <b:widget id='Header1' locked='true' title='medisinagamot (Header)' type='Header' version='1'>
                 <b:widget-settings>
                   <b:widget-setting name='displayUrl'/>
                   <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -858,6 +858,9 @@ user is not using shrink to fit then we expand the header.
 <div class='wrapper'>
   <b:section class='banner section' id='banner' maxwidgets='1' showaddelement='yes'>
     <b:widget id='HTML97' locked='false' title='' type='HTML' version='1'>
+      <b:widget-settings>
+        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+      </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -890,13 +893,14 @@ user is not using shrink to fit then we expand the header.
   <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+      <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
       <b:widget-setting name='authorLabel'>By</b:widget-setting>
       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
       <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+      <b:widget-setting name='postLocationLabel'>Τόπος:</b:widget-setting>
       <b:widget-setting name='showAuthor'>true</b:widget-setting>
-      <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
       <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
@@ -905,6 +909,7 @@ user is not using shrink to fit then we expand the header.
       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
       <b:widget-setting name='showLabels'>true</b:widget-setting>
       <b:widget-setting name='showLocation'>false</b:widget-setting>
+      <b:widget-setting name='postLabelsLabel'>Categories:</b:widget-setting>
       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
@@ -1868,7 +1873,7 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
       <b:widget-setting name='display'>LIST</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='selectedLabelsList'>Business,Design,Lifestyle,Technology,Training</b:widget-setting>
       <b:widget-setting name='showType'>ALL</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
     </b:widget-settings>
