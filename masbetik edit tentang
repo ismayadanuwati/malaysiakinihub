@@ -4712,7 +4712,7 @@ if(post_title!="") return image_tag; else return "";
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d437114090575789344\x26blogName\x3dbombanegeri\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://bombanegeri.blogspot.com/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://bombanegeri.blogspot.com/\x26vt\x3d-5934431058592944500&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d5298959590381715012\x26blogName\x3dtelefonmyku\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://telefonmyku.blogspot.com/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://telefonmyku.blogspot.com/\x26vt\x3d200441624577650264&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -4737,7 +4737,7 @@ head.appendChild(script);
 <div id='header-container'>
 <header id='header-wrapper'>
 <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='bombanegeri (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='telefonmyku (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -4858,19 +4858,18 @@ user is not using shrink to fit then we expand the header.
     <path d='M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z'/>
 </svg>Tentang</span></a></li>
 <li class='subs'>
-<a href='https://www.blogger.com/follow-blog.g?blogID=1211395477844098579' rel='nofollow noopener' target='_blank' title='Ikuti Blog'><svg viewBox='0 0 24 24'><path d='M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,7H11V11H7V13H11V17H13V13H17V11H13V7Z'/></svg><span>FOLLOW</span></a>
 </li>
 <li class='footer'>
 <a href='#' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a> - <a href='#' itemprop='url' title='Disclaimer'><span itemprop='name'>Disclaimer</span></a> - <a href='#' itemprop='url' title='Privacy Policy'><span itemprop='name'>Privacy</span></a>
 <span class='social'>
-<a class='facebook2' href='https://www.facebook.com/AhmdFbryan' rel='nofollow noopener' target='_blank' title='Facebook'>
+<a class='facebook2' href='https://www.facebook.com/' rel='nofollow noopener' target='_blank' title='Facebook'>
 <svg viewBox='0 0 24 24'><path d='M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3M18,5H15.5A3.5,3.5 0 0,0 12,8.5V11H10V14H12V21H15V14H18V11H15V9A1,1 0 0,1 16,8H18V5Z'/></svg>
 </a>
-<a class='instagram' href='https://www.instagram.com/ahmdfbryan/' rel='nofollow noopener' target='_blank' title='Instagram'>
+<a class='instagram' href='https://www.instagram.com/' rel='nofollow noopener' target='_blank' title='Instagram'>
 <svg viewBox='0 0 24 24'><path d='M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z'/>
 </svg>
 </a>
-<a class='codepen' href='https://codepen.io/jagoandzgn' rel='nofollow noopener' target='_blank' title='Codepen'><svg viewBox='0 0 24 24'>
+<a class='codepen' href='' rel='nofollow noopener' target='_blank' title='Codepen'><svg viewBox='0 0 24 24'>
 <path d='M15.09,12L12,14.08V14.09L8.91,12L12,9.92V9.92L15.09,12M12,2C11.84,2 11.68,2.06 11.53,2.15L2.5,8.11C2.27,8.22 2.09,8.43 2,8.67V14.92C2,15.33 2,15.33 2.15,15.53L11.53,21.86C11.67,21.96 11.84,22 12,22C12.16,22 12.33,21.95 12.47,21.85L21.85,15.5C22,15.33 22,15.33 22,14.92V8.67C21.91,8.42 21.73,8.22 21.5,8.1L12.47,2.15C12.32,2.05 12.16,2 12,2M16.58,13L19.59,15.04L12.83,19.6V15.53L16.58,13M19.69,8.9L16.58,11L12.83,8.47V4.38L19.69,8.9M20.33,10.47V13.53L18.07,12L20.33,10.47M7.42,13L11.17,15.54V19.6L4.41,15.04L7.42,13M4.31,8.9L11.17,4.39V8.5L7.42,11L4.31,8.9M3.67,10.5L5.93,12L3.67,13.54V10.5Z'/>
 </svg>
 </a>
@@ -4969,7 +4968,16 @@ user is not using shrink to fit then we expand the header.
   <b:section class='bellow-header-widget' id='bellow-header-widget' maxwidgets='1' showaddelement='yes'>
     <b:widget id='HTML1' locked='false' title='' type='HTML'>
       <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan729/iklanya.js"> </script>]]></b:widget-setting>
+        <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
+		&#39;format&#39; : &#39;iframe&#39;,
+		&#39;height&#39; : 90,
+		&#39;width&#39; : 728,
+		&#39;params&#39; : {}
+	};
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://shriekdestitute.com/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+&lt;/script&gt;</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -6256,7 +6264,7 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='iklan-tengah1' id='iklan-tengah1' maxwidgets='1' showaddelement='yes'>
   <b:widget id='HTML997' locked='true' title='Iklan Tengah Artikel 1' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan300/tigaratus.js"> </script>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
@@ -6276,7 +6284,16 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='iklan-tengah2' id='iklan-tengah2' maxwidgets='1' showaddelement='yes'>
   <b:widget id='HTML998' locked='true' title='Iklan Tengah Artikel 2' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'/>
+      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
+		&#39;format&#39; : &#39;iframe&#39;,
+		&#39;height&#39; : 250,
+		&#39;width&#39; : 300,
+		&#39;params&#39; : {}
+	};
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://shriekdestitute.com/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+&lt;/script&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
@@ -6372,71 +6389,7 @@ bacaJuga.innerHTML = &quot;&quot;;
 <!-- sidebar wrapper start -->
 <aside id='sidebar-wrapper'>
 <div class='sidebar-container'>
-<b:section class='sidebar' id='sidebar' preferred='yes'>
-  <b:widget id='HTML2' locked='false' title='' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='Label3' locked='false' title='Kategori' type='Label' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>LIST</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'/>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
-      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title'>
-    <h2><data:title/><svg style='width:24px;height:24px' viewBox='0 0 24 24'>
-    <path d='M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z' fill='#1a73e8'/>
-</svg></h2>
-  </b:if>
-  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-    <b:if cond='data:display == &quot;list&quot;'>
-      <ul>
-      <b:loop values='data:labels' var='label'>
-        <li>
-          <b:if cond='data:blog.url == data:label.url'>
-            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url + &quot;?&amp;max-results=7&quot;'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span class='nexlab' dir='ltr'><data:label.count/></span>
-          </b:if>
-        </li>
-      </b:loop>
-      </ul>
-    <b:else/>
-      <b:loop values='data:labels' var='label'>
-        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-          <b:if cond='data:blog.url == data:label.url'>
-            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url + &quot;?&amp;max-results=7&quot;'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span class='label-count' dir='ltr'><data:label.count/></span>
-          </b:if>
-        </span>
-      </b:loop>
-    </b:if>
-  </div>
-</b:includable>
-  </b:widget>
-</b:section>
+<b:section class='sidebar' id='sidebar' preferred='yes'/>
 <b:section class='sidebar-sticky' id='sidebar-sticky' preferred='yes'>
   <b:widget id='PopularPosts2' locked='false' title='Postingan Populer' type='PopularPosts' version='1'>
     <b:widget-settings>
@@ -6498,9 +6451,9 @@ bacaJuga.innerHTML = &quot;&quot;;
 <footer id='igniplexFooter'>
 <div class='footer-inner'>
 <b:section class='footerLeft' id='footerLeft'>
-  <b:widget id='HTML7' locked='false' title='Tentang Kami!' type='HTML' version='1'>
+  <b:widget id='HTML7' locked='false' title='Tentang Kami' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>Blog yang membincangkan fakta unik, dunia hiburan, tips blogging, tutorial, android dan tentunya perkongsian pengalaman dari setiap penulis.</b:widget-setting>
+      <b:widget-setting name='content'>Blog yang membahas fakta unik, dunia hiburan, tips blogging, tutorial, android dan tentunya saling berbagi pengalaman dari masing-masing penulis.</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -6578,7 +6531,7 @@ bacaJuga.innerHTML = &quot;&quot;;
 </div>
 <div class='attribution'>
 <div class='left'>
-          Copyright &#169; 2022
+          Copyright &#169; 2021
         </div>
 <div class='right'>
 <a href='https://www.jagoandzgn.com/'><data:blog.title/></a>
