@@ -1626,13 +1626,13 @@ if (hash.length &gt; 8) {
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
 	atOptions = {
-		&#39;key&#39; : &#39;2af0ccdd8bb4d1e1b7e86404ea0e10bb&#39;,
+		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
 		&#39;format&#39; : &#39;iframe&#39;,
 		&#39;height&#39; : 250,
 		&#39;width&#39; : 300,
 		&#39;params&#39; : {}
 	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/2af0ccdd8bb4d1e1b7e86404ea0e10bb/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
 &lt;/script&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
