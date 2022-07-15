@@ -4874,7 +4874,7 @@ user is not using shrink to fit then we expand the header.
 </svg>
 </a>
 </span>
-<span class='credit'>Copyright &#169; 2022</span>
+<span class='credit'>Copyright &#169; 2021</span>
 <span class='developer'>Theme by <cite><b><data:blog.title/></b></cite></span>
 </li>
 </ul>
@@ -4976,7 +4976,7 @@ user is not using shrink to fit then we expand the header.
 		&#39;width&#39; : 728,
 		&#39;params&#39; : {}
 	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://shriekdestitute.com/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
 &lt;/script&gt;</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -6292,7 +6292,7 @@ window.goog.comments.loadQueue.push(render);
 		&#39;width&#39; : 300,
 		&#39;params&#39; : {}
 	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://shriekdestitute.com/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
 &lt;/script&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -6389,7 +6389,24 @@ bacaJuga.innerHTML = &quot;&quot;;
 <!-- sidebar wrapper start -->
 <aside id='sidebar-wrapper'>
 <div class='sidebar-container'>
-<b:section class='sidebar' id='sidebar' preferred='yes'/>
+<b:section class='sidebar' id='sidebar' preferred='yes'>
+  <b:widget id='HTML2' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
 <b:section class='sidebar-sticky' id='sidebar-sticky' preferred='yes'>
   <b:widget id='PopularPosts2' locked='false' title='Postingan Populer' type='PopularPosts' version='1'>
     <b:widget-settings>
