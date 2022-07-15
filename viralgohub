@@ -682,11 +682,11 @@ url=urlparts[0]+(pars.length>0?'?'+pars.join('&'):"");return url}else{return url
         <div class='header-content'>
           <div class='header-title'>
             <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
-              <b:widget id='Header1' locked='true' title='jadualpedia (Header)' type='Header' version='1'>
+              <b:widget id='Header1' locked='true' title='vlogzainab (Header)' type='Header' version='1'>
                 <b:widget-settings>
                   <b:widget-setting name='displayUrl'/>
                   <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                  <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+                  <b:widget-setting name='sectionWidth'>600</b:widget-setting>
                   <b:widget-setting name='useImage'>false</b:widget-setting>
                   <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                   <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -888,13 +888,13 @@ user is not using shrink to fit then we expand the header.
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
 	atOptions = {
-		&#39;key&#39; : &#39;2af0ccdd8bb4d1e1b7e86404ea0e10bb&#39;,
+		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
 		&#39;format&#39; : &#39;iframe&#39;,
 		&#39;height&#39; : 250,
 		&#39;width&#39; : 300,
 		&#39;params&#39; : {}
 	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/2af0ccdd8bb4d1e1b7e86404ea0e10bb/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
 &lt;/script&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -908,7 +908,7 @@ user is not using shrink to fit then we expand the header.
                   </div>
                 </b:includable>
   </b:widget>
-  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+  <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
       <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
@@ -917,7 +917,6 @@ user is not using shrink to fit then we expand the header.
       <b:widget-setting name='authorLabel'>By</b:widget-setting>
       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
       <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
-      <b:widget-setting name='postLocationLabel'>Τόπος:</b:widget-setting>
       <b:widget-setting name='showAuthor'>true</b:widget-setting>
       <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
