@@ -600,7 +600,7 @@ color: rgba(255,255,255,1);
 <div class='full-row clearfloat' id='header-area'>
 <div id='menu-icon'><svg id='icon-home' viewBox='0 0 24 24'><path d='M1 17h22v2h-22v-2zm0-12v2h22v-2h-22zm0 8h22v-2h-22v2z'/></svg></div>
 <b:section id='header-wrapper' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='kubangsuka (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='bedokita (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -706,7 +706,16 @@ color: rgba(255,255,255,1);
         <b:section class='iklan-atas section' id='iklan-atas-1' maxwidgets='1' showaddelement='yes'>
           <b:widget id='HTML1' locked='false' title='' type='HTML'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan729/iklanya.js"> </script>]]></b:widget-setting>
+              <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
+		&#39;format&#39; : &#39;iframe&#39;,
+		&#39;height&#39; : 90,
+		&#39;width&#39; : 728,
+		&#39;params&#39; : {}
+	};
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+&lt;/script&gt;</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1615,7 +1624,16 @@ if (hash.length &gt; 8) {
 <b:section class='sidebar sidebar__inner' id='sidebar' preferred='yes'>
   <b:widget id='HTML2' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan300/tigaratus.js"> </script>]]></b:widget-setting>
+      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#39;key&#39; : &#39;2af0ccdd8bb4d1e1b7e86404ea0e10bb&#39;,
+		&#39;format&#39; : &#39;iframe&#39;,
+		&#39;height&#39; : 250,
+		&#39;width&#39; : 300,
+		&#39;params&#39; : {}
+	};
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/2af0ccdd8bb4d1e1b7e86404ea0e10bb/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+&lt;/script&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
