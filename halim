@@ -882,7 +882,7 @@ body,html{overflow:hidden}
 </span>
 <div id='header-logg'>
  <b:section id='header' itemscope='itemscope' itemtype='https://schema.org/WPHeader' maxwidgets='1' name='Logo' showaddelement='yes'>
-   <b:widget id='Header1' locked='true' title='bengkelpaip (Header)' type='Header' version='1'>
+   <b:widget id='Header1' locked='true' title='halimbamedia (Header)' type='Header' version='1'>
      <b:widget-settings>
        <b:widget-setting name='displayUrl'/>
        <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -1027,7 +1027,16 @@ body,html{overflow:hidden}
   <b:section class='banner section' id='banner' maxwidgets='1' showaddelement='yes'>
     <b:widget id='HTML97' locked='false' title='' type='HTML' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan729/iklanya.js"> </script>]]></b:widget-setting>
+        <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
+		&#39;format&#39; : &#39;iframe&#39;,
+		&#39;height&#39; : 90,
+		&#39;width&#39; : 728,
+		&#39;params&#39; : {}
+	};
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+&lt;/script&gt;</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1046,7 +1055,7 @@ body,html{overflow:hidden}
 <div class='clear'/>
 <div id='main-wrapper'>
 <b:section class='main' id='main' showaddelement='no'>
-  <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
+  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
@@ -2060,7 +2069,16 @@ printRelatedLabel_thumbs();
 <b:section class='sidebar' id='sidebar' preferred='yes'>
   <b:widget id='HTML1' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
+		&#39;format&#39; : &#39;iframe&#39;,
+		&#39;height&#39; : 250,
+		&#39;width&#39; : 300,
+		&#39;params&#39; : {}
+	};
+	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
+&lt;/script&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2125,7 +2143,7 @@ printRelatedLabel_thumbs();
   </b:widget>
   <b:widget id='HTML90' locked='false' title='' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/iklan300/tigaratus.js"> </script>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:blog.searchQuery'>
@@ -2319,7 +2337,7 @@ printRelatedLabel_thumbs();
   </b:widget>
   <b:widget cond='!data:view.isPost' id='PageList1' locked='false' title='' type='PageList'>
     <b:widget-settings>
-      <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://bengkelpaip.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
+      <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://halimbamedia.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
       <b:widget-setting name='homeTitle'>Home</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
