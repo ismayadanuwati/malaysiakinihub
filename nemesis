@@ -2893,7 +2893,7 @@ body.item-view .cmt_iframe_holder{
       <nav class='navbar navbar-expand-xl navbar-dark dark-skin fbt_sticky_nav'>
         <div class='container nav-mobile-px clearfix'>
           <b:section class='navbar-brand order-2 order-xl-1 m-auto' id='header-logo' maxwidgets='1' name='Logo' showaddelement='yes'>
-            <b:widget id='Header1' locked='true' title='malayang pambansa (Header)' type='Header' version='2' visible='true'>
+            <b:widget id='Header1' locked='true' title='gamit pandama (Header)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'/>
                 <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -3061,16 +3061,7 @@ body.item-view .cmt_iframe_holder{
               <b:section class='main' id='main_content' name='Main Content' showaddelement='false'>
                 <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 90,
-		&#39;width&#39; : 728,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+                    <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3R1anVkdWFsYXBhbi5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
           <b:include name='widget-title'/>
@@ -3092,15 +3083,15 @@ body.item-view .cmt_iframe_holder{
                     <b:widget-setting name='showLocation'>false</b:widget-setting>
                     <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                     <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-                    <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+                    <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
                     <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-                    <b:widget-setting name='style.textcolor'>#47c3fb</b:widget-setting>
+                    <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
                     <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-                    <b:widget-setting name='style.urlcolor'>#007bff</b:widget-setting>
+                    <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
                     <b:widget-setting name='postLocationLabel'>Τόπος:</b:widget-setting>
                     <b:widget-setting name='showAuthor'>true</b:widget-setting>
                     <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
-                    <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+                    <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                     <b:widget-setting name='showLabels'>true</b:widget-setting>
                     <b:widget-setting name='postLabelsLabel'>Categories:</b:widget-setting>
                     <b:widget-setting name='showBacklinks'>false</b:widget-setting>
@@ -3913,16 +3904,7 @@ body.item-view .cmt_iframe_holder{
                 </b:widget>
                 <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 250,
-		&#39;width&#39; : 300,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+                    <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3RpZ2FyYXR1cy5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
           <b:include name='widget-title'/>
@@ -3933,7 +3915,18 @@ body.item-view .cmt_iframe_holder{
                 </b:widget>
                 <b:widget id='HTML3' locked='false' title='' type='HTML' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+                    <b:widget-setting name='content'>&lt;!-- Histats.com  START  (aync)--&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;var _Hasync= _Hasync|| [];
+_Hasync.push([&#39;Histats.start&#39;, &#39;1,4720533,4,0,0,0,00010000&#39;]);
+_Hasync.push([&#39;Histats.fasi&#39;, &#39;1&#39;]);
+_Hasync.push([&#39;Histats.track_hits&#39;, &#39;&#39;]);
+(function() {
+var hs = document.createElement(&#39;script&#39;); hs.type = &#39;text/javascript&#39;; hs.async = true;
+hs.src = (&#39;//s10.histats.com/js15_as.js&#39;);
+(document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(hs);
+})();&lt;/script&gt;
+&lt;noscript&gt;&lt;a href=&quot;/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;//sstatic1.histats.com/0.gif?4720533&amp;amp;101&quot; alt=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;
+&lt;!-- Histats.com  END  --&gt;</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
           <b:include name='widget-title'/>
@@ -4375,5 +4368,6 @@ if(scroll>500&minimumWidth(1200)){$(".fbt_sticky_nav").addClass("scrolling_nav")
 $().UItoTop({easingType:'easeOutQuart'});$('.lazyloaded').lazy();})(jQuery);if($('.archive-view .queryMessage .card, .label-view .queryMessage .card').hasClass('fbt-query-error-mode')){$('#blog-pager').addClass('d-none');};function openNav(){var el=document.getElementById("sidebar-wrapper"),$contentOverlay=document.getElementById("fbt-content-overlay"),bodyClass=document.querySelector('body');el.classList.add("openSidebar");$contentOverlay.classList.add("activeOverlay");el.classList.remove("closeSidebar");bodyClass.classList.add("sidebar-visible");};function closeNav(){var el=document.getElementById("sidebar-wrapper"),$contentOverlay=document.getElementById("fbt-content-overlay"),bodyClass=document.querySelector('body');el.classList.remove("openSidebar");$contentOverlay.classList.remove("activeOverlay");bodyClass.classList.remove("sidebar-visible");};var ppCarousel=$(".carousel");ppCarousel.append("<ol class='carousel-indicators'></ol>");var indicators=$(".carousel-indicators");ppCarousel.find(".carousel-inner").children(".carousel-item").each(function(index){(index===0)?indicators.append("<li data-target='#carouselPopularPosts' data-slide-to='"+index+"' class='active'></li>"):indicators.append("<li data-target='#carouselPopularPosts' data-slide-to='"+index+"'></li>");});$('.fbt-sidenav').each(function(){var searchWidth=$('.sidebar-wrapper').width();if(searchWidth>0){$('.fbt-sidenav').addClass('active');}else{$('.fbt-sidenav').removeClass('active');}});$(function($){"use strict";var c_form="[contact_Form]";var hide_text="[hide_Text]";var full_page="[full_Page]";var primary_button="[button_primary]";var secondary_button="[button_secondary]";var success_button="[button_success]";var danger_button="[button_danger]";var warning_button="[button_warning]";var info_button="[button_info]";var dark_button="[button_dark]";var grid_five="[full_Screen]";var grid_four="[four_Columns]";var hide_author="[hide_Author]";var hide_date="[hide_Date]";var hide_post_meta="[hide_PostMeta]";$(".post-body *").replaceText(primary_button,"<span class='post-button-primary d-none'></span>");$(".post-body *").replaceText(secondary_button,"<span class='post-button-secondary d-none'></span>");$(".post-body *").replaceText(success_button,"<span class='post-button-success d-none'></span>");$(".post-body *").replaceText(danger_button,"<span class='post-button-danger d-none'></span>");$(".post-body *").replaceText(warning_button,"<span class='post-button-warning d-none'></span>");$(".post-body *").replaceText(info_button,"<span class='post-button-info d-none'></span>");$(".post-body *").replaceText(dark_button,"<span class='post-button-dark d-none'></span>");$(".post-button-primary").parent().wrapInner('<button class="btn btn-primary" type="button"></button>');$(".post-button-secondary").parent().wrapInner('<button class="btn btn-secondary" type="button"></button>');$(".post-button-success").parent().wrapInner('<button class="btn btn-success" type="button"></button>');$(".post-button-danger").parent().wrapInner('<button class="btn btn-danger" type="button"></button>');$(".post-button-warning").parent().wrapInner('<button class="btn btn-warning" type="button"></button>');$(".post-button-info").parent().wrapInner('<button class="btn btn-info" type="button"></button>');$(".post-button-dark").parent().wrapInner('<button class="btn btn-dark" type="button"></button>');$(".fbt-item-post *").replaceText(full_page,"<style>.blog-posts .col-xl-8.col-lg-9 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}.fbt-page-shape-title {text-align: center;}</style>");$(".fbt-item-post *").replaceText(c_form,"<div class='page-contact'/><style>#page_widgets .ContactForm,.sidebar .ContactForm,.ContactForm .fbt-sep-title {display: none!important;}</style>");$("#Short_Code_Options .html-widget-content").replaceText(grid_five,"<style>.feed-view .fbt-elastic-container {max-width: 100%;}@media (min-width: 1200px) {.card-columns {-webkit-column-count: 5;-moz-column-count: 5;column-count: 5;}}.navbar {padding-left: 0;padding-right: 0;}@media (min-width: 768px) {.navbar {padding-left: 1.9rem;padding-right: 1.9rem;}}.navbar .container {max-width: 100%;}@media (max-width: 575.98px) {.navbar {padding-left: 1rem;padding-right: 1rem;}}.blog-post:nth-child(2n+2) .card-body .post-excerpt {display: none;}@media (max-width: 1601.98px) {.fbt-index-post .post-title.h4 {font-size: 1rem;line-height: calc(1rem + 4px);}}@media (min-width: 768px) {.feed-view .fbt-elastic-container {padding: 0 3rem;}}</style>");$("#Short_Code_Options .html-widget-content").replaceText(hide_author,"<style>#carouselPopularPosts .post-meta .post-author, .FeaturedPost .post-meta .post-author {display: none;}</style>");$("#Short_Code_Options .html-widget-content").replaceText(hide_date,"<style>#carouselPopularPosts .post-meta .post-date, .FeaturedPost .post-meta .post-date, .post-meta span:not(:last-child):after {display: none;}</style>");$("#Short_Code_Options .html-widget-content").replaceText(hide_post_meta,"<style>#carouselPopularPosts .post-meta, .FeaturedPost .post-meta {display: none;}.fbt_read_more {margin-top: 2.5rem!important;}</style>");$("#Short_Code_Options .html-widget-content").replaceText(grid_four,"<style>@media (min-width: 1200px) {.card-columns {-webkit-column-count: 4;-moz-column-count: 4;column-count: 4;}}.fbt-index-post .post-title.h4 {font-size: 1rem;line-height: calc(1rem + 4px);}.blog-post:nth-child(2n+2) .card-body .post-excerpt {display: none;}</style>");$(".fbt-item-post *").replaceText(hide_text,"<div class='hidden-text d-none'></div>");$('strike').appendTo('.hidden-text');$('#page_widgets .ContactForm').appendTo('.page-contact');$(".fbt-big-title-text").each(function(){var n="[";var r="]";$(".fbt-big-title-text *").replaceText(n,'<span class="title-sec-text">');$(".fbt-big-title-text *").replaceText(r,"</span>");});$(".post-body").each(function(){$(this).find('blockquote').addClass('fbt-shape-container').wrapInner('<div class="card shadow-lg radius-10 px-5 pt-5 pb-4"><p class="pl-5"/></div>');});$('.Blog, .navbar-brand, .header-buttons').show();$('.cookie-choices-button').addClass('btn btn-warning btn-sm text-dark py-1 px-4 radius-25 font-weight-light');});if(document.documentMode||/Edge/.test(navigator.userAgent)){jQuery('.fbt-post-thumbnail a img, .PopularPosts a img').addClass('d-none').each(function(){var t=jQuery(this),s='url('+t.attr('data-src')+')',p=t.parent(),d=jQuery('<div class="fbt-resize"></div>');p.append(d);d.css({'background-image':s});t.hide();});}
     //]]>
   </script>
+<script>document.write(atob("PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgeyQoJiMzOTtpbWcjY2xvc2VkJiMzOTspLmNsaWNrKGZ1bmN0aW9uKCl7JCgmIzM5OyNidG1fYmFubmVyJiMzOTspLmhpZGUoOTApO30pO30pOwo8L3NjcmlwdD4KICAgICAgICA8IS0tc3RhcnQ6IGZsb2F0aW5nIGFkcy0tPgogICAgICAgIDxkaXYgaWQ9J2Zsb2F0YWRzJyBzdHlsZT0nd2lkdGg6MTAwJTttYXJnaW46YXV0bzsgdGV4dC1hbGlnbjpjZW50ZXI7ZmxvYXQ6bm9uZTtvdmVyZmxvdzpoaWRkZW47IGRpc3BsYXk6c2Nyb2xsO3Bvc2l0aW9uOmZpeGVkOyBib3R0b206MDt6LWluZGV4Ojk5OTknPgogICAgICAgICA8ZGl2PjxhIGlkPSdjbG9zZS1mbG9hdGFkcycgb25jbGljaz0nZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJmFwb3M7ZmxvYXRhZHMmYXBvczspLnN0eWxlLmRpc3BsYXkgPSAmYXBvcztub25lJmFwb3M7Oycgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+PGltZyBhbHQ9J2Nsb3NlJyBzcmM9J2h0dHBzOi8vMy5icC5ibG9nc3BvdC5jb20vLVpaU2FjREhMV2xNL1ZodmxLVE1qYkxJL0FBQUFBQUFBRjJNL1VEelU0cnJ2Y2FJL3MxNjAwL2J0bl9jbG9zZS5naWYnIHRpdGxlPSdjbG9zZSBidXR0b24nLz48L2E+PC9kaXY+CiAgICA8ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcjtkaXNwbGF5OmJsb2NrO21heC13aWR0aDo3MjhweDtoZWlnaHQ6YXV0bztvdmVyZmxvdzpoaWRkZW47bWFyZ2luOmF1dG8nPgo8IS0tU2NyaXB0IGlrbGFuLS0+CjxzY3JpcHQgc3JjPSdodHRwczovL3BhZ3N1bGF0LmNvbS9pa2xhbi9saW1hcHVsdWh0aWdhZHVhcHVsdWguanMnPiA8L3NjcmlwdD4KPCEtLUFraGlyIHNjcmlwdCBpa2xhbi0tPgogICAgICAgIDwvZGl2PgogPC9kaXY+PCEtLWVuZDogZmxvYXRpbmcgYWRzLS0+"));</script> 
 </body>
 </html>
