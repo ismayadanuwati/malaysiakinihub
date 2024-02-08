@@ -12,6 +12,7 @@
 <link expr:href='data:blog.homepageUrl + &quot;favicon.ico&quot;' rel='icon' type='image/x-icon'/>
 <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot;- Atom&quot;' rel='alternate' type='application/atom+xml'/>
 <link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot;- RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<b:if cond='data:view.search.query'>
 <link expr:href='data:blog.homepageUrl + &quot;search/q=&quot; + data:view.search.query' rel='canonical'/>
 <b:else/>
 <link expr:href='data:blog.canonicalUrl' rel='canonical'/>  
@@ -604,7 +605,7 @@ color: rgba(255,255,255,1);
 <div class='full-row clearfloat' id='header-area'>
 <div id='menu-icon'><svg id='icon-home' viewBox='0 0 24 24'><path d='M1 17h22v2h-22v-2zm0-12v2h22v-2h-22zm0 8h22v-2h-22v2z'/></svg></div>
 <b:section id='header-wrapper' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='bedokita (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='Kasiyahan sa Pagtitipon (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -708,18 +709,9 @@ color: rgba(255,255,255,1);
 <!-- iklan -->
       <div id='iklan-atas'><b:if cond='data:blog.searchQuery or data:blog.pageType == &quot;static_page&quot;'><b:else/>
         <b:section class='iklan-atas section' id='iklan-atas-1' maxwidgets='1' showaddelement='yes'>
-          <b:widget id='HTML1' locked='false' title='' type='HTML'>
+          <b:widget id='HTML1' locked='false' mobile='yes' title='' type='HTML'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 90,
-		&#39;width&#39; : 728,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3R1anVkdWFsYXBhbi5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -740,17 +732,17 @@ color: rgba(255,255,255,1);
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 </b:if>
         <b:section class='main' id='main' showaddelement='no'>
-          <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
+          <b:widget id='Blog1' locked='true' title='Mga Post sa Blog' type='Blog' version='1'>
             <b:widget-settings>
               <b:widget-setting name='showDateHeader'>true</b:widget-setting>
               <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showShareButtons'>false</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
               <b:widget-setting name='showCommentLink'>false</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showAuthor'>true</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='timestampLabel'>on</b:widget-setting>
@@ -1626,19 +1618,23 @@ if (hash.length &gt; 8) {
 <aside id='sidebar-wrapper' itemscope='itemscope' itemtype='https://schema.org/WPSideBar'>
 <div class='fixed-sidebar'>
 <b:section class='sidebar sidebar__inner' id='sidebar' preferred='yes'>
-  <b:widget id='HTML2' locked='false' title='' type='HTML'>
+  <b:widget id='HTML2' locked='false' mobile='yes' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 250,
-		&#39;width&#39; : 300,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3RpZ2FyYXR1cy5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
     </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML5' locked='false' mobile='yes' title='' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -1743,20 +1739,22 @@ if (hash.length &gt; 8) {
   </div>
 </b:includable>
   </b:widget>
-</b:section>
-</div></aside>
-<!-- spacer for skins that want sidebar and main to be the same height-->
-</b:if>
-<div class='clear'/>
-</div> <!-- end content-wrapper -->
-<!-- iklan -->
-      <div id='iklan-bawah'><b:if cond='data:blog.searchQuery or data:blog.pageType == &quot;static_page&quot;'><b:else/>
-        <b:section class='iklan-bawah section' id='iklan-bawah-1' maxwidgets='1' showaddelement='yes'>
-          <b:widget id='HTML3' locked='false' title='' type='HTML'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
+  <b:widget id='HTML4' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;!-- Histats.com  START  (aync)--&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;var _Hasync= _Hasync|| [];
+_Hasync.push([&#39;Histats.start&#39;, &#39;1,4720533,4,0,0,0,00010000&#39;]);
+_Hasync.push([&#39;Histats.fasi&#39;, &#39;1&#39;]);
+_Hasync.push([&#39;Histats.track_hits&#39;, &#39;&#39;]);
+(function() {
+var hs = document.createElement(&#39;script&#39;); hs.type = &#39;text/javascript&#39;; hs.async = true;
+hs.src = (&#39;//s10.histats.com/js15_as.js&#39;);
+(document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(hs);
+})();&lt;/script&gt;
+&lt;noscript&gt;&lt;a href=&quot;/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;//sstatic1.histats.com/0.gif?4720533&amp;amp;101&quot; alt=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;
+&lt;!-- Histats.com  END  --&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
@@ -1767,8 +1765,16 @@ if (hash.length &gt; 8) {
 
   <b:include name='quickedit'/>
 </b:includable>
-          </b:widget>
-        </b:section>
+  </b:widget>
+</b:section>
+</div></aside>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+</b:if>
+<div class='clear'/>
+</div> <!-- end content-wrapper -->
+<!-- iklan -->
+      <div id='iklan-bawah'><b:if cond='data:blog.searchQuery or data:blog.pageType == &quot;static_page&quot;'><b:else/>
+        <b:section class='iklan-bawah section' id='iklan-bawah-1' maxwidgets='1' showaddelement='yes'/>
         </b:if></div>
 </div><!-- end outer-wrapper -->
 <div class='clear'/>
@@ -1799,7 +1805,7 @@ if (hash.length &gt; 8) {
 </div>
 <div class='f-text'>
 <ul>
-  <li>Copyright &#169; 2022 | Template By SUPARMIN</li>
+  <li>Copyright &#169; 2023 | Template By Blogger Team</li>
 </ul>
 </div>
 </div>
@@ -1926,5 +1932,6 @@ var uri = window.location.toString();if (uri.indexOf("?m=1","?m=1") > 0) {var cl
 !function(){"use strict";for(var t=document.querySelectorAll(".llyv"),e=0;e<t.length;e++){var i=document.createElement("div");i.className="llyv-play-btn",t[e].appendChild(i);var l=document.createElement("img");l.src="https://img.youtube.com/vi/"+t[e].dataset.id+"/hqdefault.jpg",t[e].appendChild(l),t[e].addEventListener("click",function(){var t=document.createElement("iframe");for(t.setAttribute("src","https://www.youtube.com/embed/"+this.dataset.id+"?rel=0&showinfo=0&autoplay=1"),t.setAttribute("frameborder","0"),t.setAttribute("allowfullscreen","");this.firstChild;)this.removeChild(this.firstChild);this.appendChild(t)})}}();
 //]]>
 </script>
+<script>document.write(atob(&quot;PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgeyQoJiMzOTtpbWcjY2xvc2VkJiMzOTspLmNsaWNrKGZ1bmN0aW9uKCl7JCgmIzM5OyNidG1fYmFubmVyJiMzOTspLmhpZGUoOTApO30pO30pOwo8L3NjcmlwdD4KICAgICAgICA8IS0tc3RhcnQ6IGZsb2F0aW5nIGFkcy0tPgogICAgICAgIDxkaXYgaWQ9J2Zsb2F0YWRzJyBzdHlsZT0nd2lkdGg6MTAwJTttYXJnaW46YXV0bzsgdGV4dC1hbGlnbjpjZW50ZXI7ZmxvYXQ6bm9uZTtvdmVyZmxvdzpoaWRkZW47IGRpc3BsYXk6c2Nyb2xsO3Bvc2l0aW9uOmZpeGVkOyBib3R0b206MDt6LWluZGV4Ojk5OTknPgogICAgICAgICA8ZGl2PjxhIGlkPSdjbG9zZS1mbG9hdGFkcycgb25jbGljaz0nZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJmFwb3M7ZmxvYXRhZHMmYXBvczspLnN0eWxlLmRpc3BsYXkgPSAmYXBvcztub25lJmFwb3M7Oycgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+PGltZyBhbHQ9J2Nsb3NlJyBzcmM9J2h0dHBzOi8vMy5icC5ibG9nc3BvdC5jb20vLVpaU2FjREhMV2xNL1ZodmxLVE1qYkxJL0FBQUFBQUFBRjJNL1VEelU0cnJ2Y2FJL3MxNjAwL2J0bl9jbG9zZS5naWYnIHRpdGxlPSdjbG9zZSBidXR0b24nLz48L2E+PC9kaXY+CiAgICA8ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcjtkaXNwbGF5OmJsb2NrO21heC13aWR0aDo3MjhweDtoZWlnaHQ6YXV0bztvdmVyZmxvdzpoaWRkZW47bWFyZ2luOmF1dG8nPgo8IS0tU2NyaXB0IGlrbGFuLS0+CjxzY3JpcHQgc3JjPSdodHRwczovL3BhZ3N1bGF0LmNvbS9pa2xhbi9saW1hcHVsdWh0aWdhZHVhcHVsdWguanMnPiA8L3NjcmlwdD4KPCEtLUFraGlyIHNjcmlwdCBpa2xhbi0tPgogICAgICAgIDwvZGl2PgogPC9kaXY+PCEtLWVuZDogZmxvYXRpbmcgYWRzLS0+&quot;));</script>
 &lt;/body&gt;&lt;!--<body/>--&gt;
 </HTML>
