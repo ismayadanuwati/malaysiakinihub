@@ -682,7 +682,7 @@ url=urlparts[0]+(pars.length>0?'?'+pars.join('&'):"");return url}else{return url
         <div class='header-content'>
           <div class='header-title'>
             <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
-              <b:widget id='Header1' locked='true' title='vlogzainab (Header)' type='Header' version='1'>
+              <b:widget id='Header1' locked='true' title='angkinalaman (Header)' type='Header' version='1'>
                 <b:widget-settings>
                   <b:widget-setting name='displayUrl'/>
                   <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -781,16 +781,7 @@ user is not using shrink to fit then we expand the header.
             <b:section class='tabs' id='crosscol' maxwidgets='1' name='Header Kanan' showaddelement='no'>
               <b:widget id='HTML94' locked='true' title='Header Kanan' type='HTML' version='1'>
                 <b:widget-settings>
-                  <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 90,
-		&#39;width&#39; : 728,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+                  <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3R1anVkdWFsYXBhbi5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
                 </b:widget-settings>
                 <b:includable id='main'>
                   <div class='widget-content'>
@@ -818,6 +809,7 @@ user is not using shrink to fit then we expand the header.
         &lt;ul&gt;
             &lt;li&gt;&lt;a href=&#39;#&#39;&gt;Disclaimer&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&#39;#&#39;&gt;Sitemap&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#39;#&#39;&gt;Theme&lt;/a&gt;&lt;/li&gt;
             &lt;li&gt;&lt;a href=&#39;#&#39;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/li&gt;
@@ -867,9 +859,6 @@ user is not using shrink to fit then we expand the header.
 <div class='wrapper'>
   <b:section class='banner section' id='banner' maxwidgets='1' showaddelement='yes'>
     <b:widget id='HTML97' locked='false' title='' type='HTML' version='1'>
-      <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
-      </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -886,16 +875,7 @@ user is not using shrink to fit then we expand the header.
 <b:section class='main' id='main' maxwidgets='2' name='Main' showaddelements='no'>
   <b:widget id='HTML92' locked='true' title='Main Ads' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 250,
-		&#39;width&#39; : 300,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3RpZ2FyYXR1cy5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
                   <!-- only display title if it's non-empty -->
@@ -911,14 +891,13 @@ user is not using shrink to fit then we expand the header.
   <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-      <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
-      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
       <b:widget-setting name='authorLabel'>By</b:widget-setting>
       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showAuthor'>true</b:widget-setting>
-      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='reactionsLabel'/>
@@ -926,7 +905,6 @@ user is not using shrink to fit then we expand the header.
       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
       <b:widget-setting name='showLabels'>true</b:widget-setting>
       <b:widget-setting name='showLocation'>false</b:widget-setting>
-      <b:widget-setting name='postLabelsLabel'>Categories:</b:widget-setting>
       <b:widget-setting name='showTimestamp'>true</b:widget-setting>
       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
@@ -1828,6 +1806,22 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
 <!--  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>-->
 <div id='sidebar' itemscope='itemscope' itemtype='http://schema.org/WPSideBar'>
 <b:section class='sidebar' id='sidebar-section' maxwidgets='' name='Sidebar' showaddelements='yes'>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBhc3luYz0iYXN5bmMiIGRhdGEtY2Zhc3luYz0iZmFsc2UiIHNyYz0iLy9wYWdzdWxhdC5jb20vaWtsYW4vaW52b2tlLmpzIj48L3NjcmlwdD4KPGRpdiBpZD0iY29udGFpbmVyLTJiY2VjNjkyN2I4ZTQ5MjFjZTZlZmE2Njg0ZjBiMmZiIj48L2Rpdj4="));</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
   <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
     <b:widget-settings>
       <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
@@ -1875,17 +1869,6 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
                   </div>
                 </b:includable>
   </b:widget>
-  <b:widget id='HTML99' locked='false' title='' type='HTML' version='1'>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-  </b:widget>
   <b:widget id='Label1' locked='false' title='Labels' type='Label' version='1'>
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
@@ -1930,6 +1913,31 @@ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h4>
                     </b:if>
                   </div>
                 </b:includable>
+  </b:widget>
+  <b:widget id='HTML99' locked='false' title='' type='HTML' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;!-- Histats.com  START  (aync)--&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;var _Hasync= _Hasync|| [];
+_Hasync.push([&#39;Histats.start&#39;, &#39;1,4720533,4,0,0,0,00010000&#39;]);
+_Hasync.push([&#39;Histats.fasi&#39;, &#39;1&#39;]);
+_Hasync.push([&#39;Histats.track_hits&#39;, &#39;&#39;]);
+(function() {
+var hs = document.createElement(&#39;script&#39;); hs.type = &#39;text/javascript&#39;; hs.async = true;
+hs.src = (&#39;//s10.histats.com/js15_as.js&#39;);
+(document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(hs);
+})();&lt;/script&gt;
+&lt;noscript&gt;&lt;a href=&quot;/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;//sstatic1.histats.com/0.gif?4720533&amp;amp;101&quot; alt=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;
+&lt;!-- Histats.com  END  --&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
   </b:widget>
 </b:section> 
 </div>
@@ -2037,5 +2045,6 @@ function showComm(e){document.getElementById(e)&&("none"!=document.getElementByI
 //]]>
 </script>
 <b:include data='blog' name='google-analytics'/>
+<script>document.write(atob(&quot;PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgeyQoJiMzOTtpbWcjY2xvc2VkJiMzOTspLmNsaWNrKGZ1bmN0aW9uKCl7JCgmIzM5OyNidG1fYmFubmVyJiMzOTspLmhpZGUoOTApO30pO30pOwo8L3NjcmlwdD4KICAgICAgICA8IS0tc3RhcnQ6IGZsb2F0aW5nIGFkcy0tPgogICAgICAgIDxkaXYgaWQ9J2Zsb2F0YWRzJyBzdHlsZT0nd2lkdGg6MTAwJTttYXJnaW46YXV0bzsgdGV4dC1hbGlnbjpjZW50ZXI7ZmxvYXQ6bm9uZTtvdmVyZmxvdzpoaWRkZW47IGRpc3BsYXk6c2Nyb2xsO3Bvc2l0aW9uOmZpeGVkOyBib3R0b206MDt6LWluZGV4Ojk5OTknPgogICAgICAgICA8ZGl2PjxhIGlkPSdjbG9zZS1mbG9hdGFkcycgb25jbGljaz0nZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJmFwb3M7ZmxvYXRhZHMmYXBvczspLnN0eWxlLmRpc3BsYXkgPSAmYXBvcztub25lJmFwb3M7Oycgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+PGltZyBhbHQ9J2Nsb3NlJyBzcmM9J2h0dHBzOi8vMy5icC5ibG9nc3BvdC5jb20vLVpaU2FjREhMV2xNL1ZodmxLVE1qYkxJL0FBQUFBQUFBRjJNL1VEelU0cnJ2Y2FJL3MxNjAwL2J0bl9jbG9zZS5naWYnIHRpdGxlPSdjbG9zZSBidXR0b24nLz48L2E+PC9kaXY+CiAgICA8ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcjtkaXNwbGF5OmJsb2NrO21heC13aWR0aDo3MjhweDtoZWlnaHQ6YXV0bztvdmVyZmxvdzpoaWRkZW47bWFyZ2luOmF1dG8nPgo8IS0tU2NyaXB0IGlrbGFuLS0+CjxzY3JpcHQgc3JjPSdodHRwczovL3BhZ3N1bGF0LmNvbS9pa2xhbi9saW1hcHVsdWh0aWdhZHVhcHVsdWguanMnPiA8L3NjcmlwdD4KPCEtLUFraGlyIHNjcmlwdCBpa2xhbi0tPgogICAgICAgIDwvZGl2PgogPC9kaXY+PCEtLWVuZDogZmxvYXRpbmcgYWRzLS0+&quot;));</script>  
 </body> 
 </HTML>
