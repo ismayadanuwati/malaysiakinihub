@@ -4707,12 +4707,12 @@ if(post_title!="") return image_tag; else return "";
     }
   &lt;/script&gt;
 &lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/platform.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d5298959590381715012\x26blogName\x3dtelefonmyku\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://telefonmyku.blogspot.com/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://telefonmyku.blogspot.com/\x26vt\x3d200441624577650264&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8131790748838952282\x26blogName\x3dlangkaibigan\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://langkaibigan.blogspot.com/search\x26blogLocale\x3din\x26v\x3d2\x26homepageUrl\x3dhttp://langkaibigan.blogspot.com/\x26vt\x3d6720764796568687505&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -4737,7 +4737,7 @@ head.appendChild(script);
 <div id='header-container'>
 <header id='header-wrapper'>
 <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='telefonmyku (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='langkaibigan (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -4968,16 +4968,7 @@ user is not using shrink to fit then we expand the header.
   <b:section class='bellow-header-widget' id='bellow-header-widget' maxwidgets='1' showaddelement='yes'>
     <b:widget id='HTML1' locked='false' title='' type='HTML'>
       <b:widget-settings>
-        <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 90,
-		&#39;width&#39; : 728,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+        <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3R1anVkdWFsYXBhbi5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -5016,13 +5007,13 @@ user is not using shrink to fit then we expand the header.
     <b:widget-settings>
       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
       <b:widget-setting name='commentLabel'>Post a Comment</b:widget-setting>
-      <b:widget-setting name='style.textcolor'>#f2994a</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
       <b:widget-setting name='authorLabel'>By</b:widget-setting>
       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-      <b:widget-setting name='style.urlcolor'>#f2c94c</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showAuthor'>false</b:widget-setting>
-      <b:widget-setting name='style.linkcolor'>#393939</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='timestampLabel'>pada tanggal</b:widget-setting>
@@ -6284,16 +6275,7 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='iklan-tengah2' id='iklan-tengah2' maxwidgets='1' showaddelement='yes'>
   <b:widget id='HTML998' locked='true' title='Iklan Tengah Artikel 2' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 250,
-		&#39;width&#39; : 300,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3RpZ2FyYXR1cy5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
@@ -6313,7 +6295,20 @@ window.goog.comments.loadQueue.push(render);
 <b:section class='iklan-bawah' id='iklan-bawah' maxwidgets='1' showaddelement='yes'>
   <b:widget id='HTML999' locked='true' title='Iklan Bawah Artikel' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'/>
+      <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL2xpbWFwdWx1aHRpZ2FkdWFwdWx1aC5qcyI+IDwvc2NyaXB0Pg=="));</script>
+
+   <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4720533,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4720533&amp;101" alt="" border="0" /></a></noscript>
+<!-- Histats.com  END  -->]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 <b:if cond='data:blog.pageType in {&quot;item&quot;}'>
@@ -6391,9 +6386,6 @@ bacaJuga.innerHTML = &quot;&quot;;
 <div class='sidebar-container'>
 <b:section class='sidebar' id='sidebar' preferred='yes'>
   <b:widget id='HTML2' locked='false' title='' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
-    </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -6468,9 +6460,9 @@ bacaJuga.innerHTML = &quot;&quot;;
 <footer id='igniplexFooter'>
 <div class='footer-inner'>
 <b:section class='footerLeft' id='footerLeft'>
-  <b:widget id='HTML7' locked='false' title='Tentang Kami' type='HTML' version='1'>
+  <b:widget id='HTML7' locked='false' title='Tungkol sa atin' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>Blog yang membahas fakta unik, dunia hiburan, tips blogging, tutorial, android dan tentunya saling berbagi pengalaman dari masing-masing penulis.</b:widget-setting>
+      <b:widget-setting name='content'>mundo ng entertainment, blogging tips, tutorials, android.</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -6488,20 +6480,20 @@ bacaJuga.innerHTML = &quot;&quot;;
 <b:section class='footerMiddle' id='footerMiddle'>
   <b:widget id='HTML8' locked='false' title='Navigasi' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;ul&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path d=&#39;M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z&#39;&gt;&lt;/path&gt;
-&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;About&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path d=&#39;M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z&#39;&gt;&lt;/path&gt;
-&lt;/svg&gt;&lt;a href=&#39;h#&#39;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path d=&#39;M12,1A5,5 0 0,0 7,6V8H6A2,2 0 0,0 4,10V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V10A2,2 0 0,0 18,8H17V6A5,5 0 0,0 12,1M12,2.9C13.71,2.9 15.1,4.29 15.1,6V8H8.9V6C8.9,4.29 10.29,2.9 12,2.9M11,11H13V15H11V11M11,17H13V19H11V17Z&#39;&gt;&lt;/path&gt;
-&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path d=&#39;M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M13,17H11V15H13V17M13,13H11V7H13V13Z&#39;&gt;&lt;/path&gt;
-&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;Disclaimer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<ul>
+<li><svg viewbox='0 0 24 24'>
+<path d='M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z'></path>
+</svg><a href='#'>About</a></li>
+<li><svg viewbox='0 0 24 24'>
+<path d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z'></path>
+</svg><a href='h#'>Contact</a></li>
+<li><svg viewbox='0 0 24 24'>
+<path d='M12,1A5,5 0 0,0 7,6V8H6A2,2 0 0,0 4,10V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V10A2,2 0 0,0 18,8H17V6A5,5 0 0,0 12,1M12,2.9C13.71,2.9 15.1,4.29 15.1,6V8H8.9V6C8.9,4.29 10.29,2.9 12,2.9M11,11H13V15H11V11M11,17H13V19H11V17Z'></path>
+</svg><a href='#'>Privacy Policy</a></li>
+<li><svg viewbox='0 0 24 24'>
+<path d='M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M13,17H11V15H13V17M13,13H11V7H13V13Z'></path>
+</svg><a href='#'>Disclaimer</a></li>
+</ul>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -6519,18 +6511,18 @@ bacaJuga.innerHTML = &quot;&quot;;
 <b:section class='footerRight' id='footerRight'>
   <b:widget id='HTML5' locked='false' title='Menu Site' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;ul&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path fill=&quot;currentColor&quot; d=&quot;M19,10C19,11.38 16.88,12.5 15.5,12.5C14.12,12.5 12.75,11.38 12.75,10H11.25C11.25,11.38 9.88,12.5 8.5,12.5C7.12,12.5 5,11.38 5,10H4.25C4.09,10.64 4,11.31 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12C20,11.31 19.91,10.64 19.75,10H19M12,4C9.04,4 6.45,5.61 5.07,8H18.93C17.55,5.61 14.96,4 12,4M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z&quot; /&gt;&lt;/path&gt;&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;Off Topik&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path fill=&quot;currentColor&quot; d=&quot;M20.71,4.63L19.37,3.29C19,2.9 18.35,2.9 17.96,3.29L9,12.25L11.75,15L20.71,6.04C21.1,5.65 21.1,5 20.71,4.63M7,14A3,3 0 0,0 4,17C4,18.31 2.84,19 2,19C2.92,20.22 4.5,21 6,21A4,4 0 0,0 10,17A3,3 0 0,0 7,14Z&quot; /&gt;&lt;/path&gt;&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;Redesign&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
- &lt;path fill=&quot;currentColor&quot; d=&quot;M17.45,15.18L22,7.31V19L22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L16.74,12.5L10.23,8.75L4.31,19H6.57L10.96,11.44L17.45,15.18Z&quot; /&gt;
-&lt;/path&gt;&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;Traffic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;svg viewbox=&#39;0 0 24 24&#39;&gt;
-&lt;path fill=&quot;currentColor&quot; d=&quot;M3,5V19H22V5H3M5,7H20V11H5V7M5,17V13H9V17H5M11,17V13H20V17H11Z&quot; /&gt;
-&lt;/path&gt;&lt;/svg&gt;&lt;a href=&#39;#&#39;&gt;Info Iklan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<ul>
+<li><svg viewbox='0 0 24 24'>
+<path fill="currentColor" d="M19,10C19,11.38 16.88,12.5 15.5,12.5C14.12,12.5 12.75,11.38 12.75,10H11.25C11.25,11.38 9.88,12.5 8.5,12.5C7.12,12.5 5,11.38 5,10H4.25C4.09,10.64 4,11.31 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12C20,11.31 19.91,10.64 19.75,10H19M12,4C9.04,4 6.45,5.61 5.07,8H18.93C17.55,5.61 14.96,4 12,4M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M12,17.23C10.25,17.23 8.71,16.5 7.81,15.42L9.23,14C9.68,14.72 10.75,15.23 12,15.23C13.25,15.23 14.32,14.72 14.77,14L16.19,15.42C15.29,16.5 13.75,17.23 12,17.23Z" /></path></svg><a href='#'>Off Topik</a></li>
+<li><svg viewbox='0 0 24 24'>
+<path fill="currentColor" d="M20.71,4.63L19.37,3.29C19,2.9 18.35,2.9 17.96,3.29L9,12.25L11.75,15L20.71,6.04C21.1,5.65 21.1,5 20.71,4.63M7,14A3,3 0 0,0 4,17C4,18.31 2.84,19 2,19C2.92,20.22 4.5,21 6,21A4,4 0 0,0 10,17A3,3 0 0,0 7,14Z" /></path></svg><a href='#'>Redesign</a></li>
+<li><svg viewbox='0 0 24 24'>
+ <path fill="currentColor" d="M17.45,15.18L22,7.31V19L22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L16.74,12.5L10.23,8.75L4.31,19H6.57L10.96,11.44L17.45,15.18Z" />
+</path></svg><a href='#'>Traffic</a></li>
+<li><svg viewbox='0 0 24 24'>
+<path fill="currentColor" d="M3,5V19H22V5H3M5,7H20V11H5V7M5,17V13H9V17H5M11,17V13H20V17H11Z" />
+</path></svg><a href='#'>Info Iklan</a></li>
+</ul>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -6548,7 +6540,7 @@ bacaJuga.innerHTML = &quot;&quot;;
 </div>
 <div class='attribution'>
 <div class='left'>
-          Copyright &#169; 2021
+          Copyright &#169; 2023
         </div>
 <div class='right'>
 <a href='https://www.jagoandzgn.com/'><data:blog.title/></a>
@@ -6772,6 +6764,6 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
 <script type='text/javascript'>//<![CDATA[
 function ignielLazyLoad(){eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('u B(){Y(v e=o.1r("B"),t=0;t<e.1q;t++)Q(e[t])&&(e[t].N=e[t].1p("1n-N"))}u Q(e){v t=e.1t();Z t.1x>=0&&t.1w>=0&&t.1v<=(y.1u||o.T.1m)&&t.1k<=(y.1c||o.T.1b)}v b=["\\r\\m\\m\\D\\G\\a\\f\\c\\M\\n\\p\\c\\a\\f\\a\\k","\\h\\f","\\r\\c\\c\\r\\l\\A\\D\\G\\a\\f\\c","\\g\\h\\r\\m","\\p\\l\\k\\h\\g\\g","\\V\\1a\\1e\\R\\h\\f\\c\\a\\f\\c\\M\\h\\r\\m\\a\\m","\\w\\p\\a\\1l\\p\\c\\k\\n\\l\\c","\\r","\\1f\\w\\a\\k\\L\\1j\\a\\g\\a\\l\\c\\h\\k\\W\\g\\g","\\g\\a\\f\\q\\c\\A","\\w\\p\\a\\k\\W\\q\\a\\f\\c","\\c\\a\\p\\c","\\m\\h\\l\\w\\F\\a\\f\\c\\D\\g\\a\\F\\a\\f\\c","\\1i\\h\\m\\L","\\l\\g\\n\\l\\1g","\\p\\l\\k\\h\\g\\g\\1h\\h\\J","\\c\\h\\J","\\q\\a\\c\\S\\h\\w\\f\\m\\n\\f\\q\\R\\g\\n\\a\\f\\c\\1z\\a\\l\\c","\\A\\k\\a\\X","\\a\\1y\\a\\l","\\q\\a\\c\\D\\g\\a\\F\\a\\f\\c\\S\\L\\1F\\m","\\p\\l\\k\\h\\g\\g\\U\\a\\n\\q\\A\\c","\\n\\f\\f\\a\\k\\U\\a\\n\\q\\A\\c","\\J\\k\\a\\G\\a\\f\\c\\V\\a\\X\\r\\w\\g\\c","\\n\\c\\a\\F"];u I(d,j){y[b[0]]?y[b[0]](d,j):y[b[2]](b[1]+d,j)}I(b[3],B),I(b[4],B),o[b[0]](b[5],u(){b[6];Y(v d=o[b[8]](b[7]),j=d[b[9]],s=/1D|1B/i[b[11]](1G[b[10]])?o[b[12]]:o[b[13]],C=u(d,j,s,C){Z(d/=C/2)<1?s/2*d*d*d+j:s/2*((d-=2)*d*d+2)+j};j--;){d[b[1C]](j)[b[0]](b[14],u(d){v j,E=s[b[15]],x=o[b[1A]](/[^#]+$/[b[19]](1H[b[18]])[0])[b[17]]()[b[16]],z=s[b[1d]]-y[b[1s]],O=z>E+x?x:z-E,K=1o,H=u(d){j=j||d;v x=d-j,z=C(x,E,O,K);s[b[15]]=z,K>x&&P(H)};P(H),d[b[1E]]()})}});',62,106,'||||||||||x65|_0x1b5d|x74|_0xdd48x2||x6E|x6C|x6F||_0xdd48x3|x72|x63|x64|x69|document|x73|x67|x61|_0xdd48x4||function|var|x75|_0xdd48x7|window|_0xdd48x8|x68|lazy|_0xdd48x5|x45|_0xdd48x6|x6D|x76|_0xdd48xb|registerListener|x70|_0xdd48xa|x79|x4C|src|_0xdd48x9|requestAnimationFrame|isInViewport|x43|x42|documentElement|x48|x44|x41|x66|for|return|||||||||||x4F|clientWidth|innerWidth|21|x4D|x71|x6B|x54|x62|x53|left|x20|clientHeight|data|900|getAttribute|length|getElementsByClassName|22|getBoundingClientRect|innerHeight|top|right|bottom|x78|x52|20|trident|24|firefox|23|x49|navigator|this'.split('|'),0,{}));} eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('j 4=["\\7\\9\\9\\e\\d\\a\\b\\8\\i\\g\\h\\8\\a\\b\\a\\k","\\f\\c\\7\\9","\\7\\8\\8\\7\\m\\l\\e\\d\\a\\b\\8","\\c\\b\\f\\c\\7\\9"];5[4[0]]?5[4[0]](4[1],6,!1):5[4[2]]?5[4[2]](4[1],6):5[4[3]]=6;5[4[0]]?5[4[0]](4[1],6,!1):5[4[2]]?5[4[2]](4[1],6):5[4[3]]=6;',23,23,'||||_0xdfb4|window|ignielLazyLoad|x61|x74|x64|x65|x6E|x6F|x76|x45|x6C|x69|x73|x4C|var|x72|x68|x63'.split('|'),0,{}));
 //]]></script>
-
+<script>document.write(atob(&quot;PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgeyQoJiMzOTtpbWcjY2xvc2VkJiMzOTspLmNsaWNrKGZ1bmN0aW9uKCl7JCgmIzM5OyNidG1fYmFubmVyJiMzOTspLmhpZGUoOTApO30pO30pOwo8L3NjcmlwdD4KICAgICAgICA8IS0tc3RhcnQ6IGZsb2F0aW5nIGFkcy0tPgogICAgICAgIDxkaXYgaWQ9J2Zsb2F0YWRzJyBzdHlsZT0nd2lkdGg6MTAwJTttYXJnaW46YXV0bzsgdGV4dC1hbGlnbjpjZW50ZXI7ZmxvYXQ6bm9uZTtvdmVyZmxvdzpoaWRkZW47IGRpc3BsYXk6c2Nyb2xsO3Bvc2l0aW9uOmZpeGVkOyBib3R0b206MDt6LWluZGV4Ojk5OTknPgogICAgICAgICA8ZGl2PjxhIGlkPSdjbG9zZS1mbG9hdGFkcycgb25jbGljaz0nZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJmFwb3M7ZmxvYXRhZHMmYXBvczspLnN0eWxlLmRpc3BsYXkgPSAmYXBvcztub25lJmFwb3M7Oycgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+PGltZyBhbHQ9J2Nsb3NlJyBzcmM9J2h0dHBzOi8vMy5icC5ibG9nc3BvdC5jb20vLVpaU2FjREhMV2xNL1ZodmxLVE1qYkxJL0FBQUFBQUFBRjJNL1VEelU0cnJ2Y2FJL3MxNjAwL2J0bl9jbG9zZS5naWYnIHRpdGxlPSdjbG9zZSBidXR0b24nLz48L2E+PC9kaXY+CiAgICA8ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcjtkaXNwbGF5OmJsb2NrO21heC13aWR0aDo3MjhweDtoZWlnaHQ6YXV0bztvdmVyZmxvdzpoaWRkZW47bWFyZ2luOmF1dG8nPgo8IS0tU2NyaXB0IGlrbGFuLS0+CjxzY3JpcHQgc3JjPSdodHRwczovL3BhZ3N1bGF0LmNvbS9pa2xhbi9saW1hcHVsdWh0aWdhZHVhcHVsdWguanMnPiA8L3NjcmlwdD4KPCEtLUFraGlyIHNjcmlwdCBpa2xhbi0tPgogICAgICAgIDwvZGl2PgogPC9kaXY+PCEtLWVuZDogZmxvYXRpbmcgYWRzLS0+&quot;));</script>
 </body>
 </html>
