@@ -1012,16 +1012,7 @@ body#layout .icon-searchku, body#layout .nav-mobile {display: none;}
 <b:section class='top-widget' id='widget-top' maxwidgets='1' name='Top Ads Widget' showaddelement='yes'>
   <b:widget id='HTML1' locked='true' title='' type='HTML' visible='true'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 90,
-		&#39;width&#39; : 728,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3R1anVkdWFsYXBhbi5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -1040,13 +1031,13 @@ body#layout .icon-searchku, body#layout .nav-mobile {display: none;}
 <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-    <b:widget-setting name='style.textcolor'>#999999</b:widget-setting>
+    <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
     <b:widget-setting name='showShareButtons'>false</b:widget-setting>
     <b:widget-setting name='authorLabel'/>
     <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-    <b:widget-setting name='style.urlcolor'>#444444</b:widget-setting>
+    <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
     <b:widget-setting name='showAuthor'>true</b:widget-setting>
-    <b:widget-setting name='style.linkcolor'>#666666</b:widget-setting>
+    <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
     <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
     <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
     <b:widget-setting name='timestampLabel'/>
@@ -1722,41 +1713,41 @@ G(document,"iframe","blogger-iframe-colorize",void 0),b=0;b<a.length;b++){var c=
 </b:widget>
 <b:widget id='HTML995' locked='true' title='Page Number Navigation' type='HTML' version='2' visible='false'>
   <b:widget-settings>
-    <b:widget-setting name='content'>&lt;script type=&#39;text/javascript&#39;&gt;
-/*&lt;![CDATA[*/
+    <b:widget-setting name='content'><![CDATA[<script type='text/javascript'>
+/*<![CDATA[*/
 var perPage=9;
 var numPages=3;
-var firstText =&#39;First&#39;;
-var lastText =&#39;Last&#39;;
-var prevText =&#39;&lt;i class=&quot;fas fa-chevron-left&quot;&gt;&lt;/i&gt;&#39;;
-var nextText =&#39;&lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;&#39;;
+var firstText ='First';
+var lastText ='Last';
+var prevText ='<i class="fas fa-chevron-left"></i>';
+var nextText ='<i class="fas fa-chevron-right"></i>';
 var urlactivepage=location.href;
-var home_page=&quot;/&quot;;
-if(typeof firstText==&quot;undefined&quot;)firstText=&quot;First&quot;;if(typeof lastText==&quot;undefined&quot;)lastText=&quot;Last&quot;;var noPage;var currentPage;var currentPageNo;var postLabel;pagecurrentg();function looppagecurrentg(pageInfo){var html=&#39;&#39;;pageNumber=parseInt(numPages / 2);if(pageNumber==numPages-pageNumber){numPages=pageNumber*2+1}
-pageStart=currentPageNo-pageNumber;if(pageStart&lt;1)pageStart=1;lastPageNo=parseInt(pageInfo / perPage)+1;if(lastPageNo-1==pageInfo / perPage)lastPageNo=lastPageNo-1;pageEnd=pageStart+numPages-1;if(pageEnd&gt;lastPageNo)pageEnd=lastPageNo;html+=&quot;&lt;span class=&#39;showpageOf&#39;&gt;Page &quot;+currentPageNo+&#39; of &#39;+lastPageNo+&quot;&lt;/span&gt;&quot;;var prevNumber=parseInt(currentPageNo)-1;if(currentPageNo&gt;1){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;showpage firstpage&quot;&gt;&lt;a href=&quot;&#39;+home_page+&#39;&quot;&gt;&#39;+firstText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum firstpage&quot;&gt;&lt;a href=&quot;/search/label/&#39;+postLabel+&#39;?&amp;max-results=&#39;+perPage+&#39;&quot;&gt;&#39;+firstText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}
-if(currentPageNo&gt;2){if(currentPageNo==3){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;showpage&quot;&gt;&lt;a href=&quot;&#39;+home_page+&#39;&quot;&gt;&#39;+prevText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;/search/label/&#39;+postLabel+&#39;?&amp;max-results=&#39;+perPage+&#39;&quot;&gt;&#39;+prevText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}else{if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectpage(&#39;+prevNumber+&#39;);return false&quot;&gt;&#39;+prevText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectlabel(&#39;+prevNumber+&#39;);return false&quot;&gt;&#39;+prevText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}}
-if(pageStart&gt;1){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;&#39;+home_page+&#39;&quot;&gt;1&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;/search/label/&#39;+postLabel+&#39;?&amp;max-results=&#39;+perPage+&#39;&quot;&gt;1&lt;/a&gt;&lt;/span&gt;&#39;}}
-if(pageStart&gt;2){html+=&#39; ... &#39;}
-for(var jj=pageStart;jj&lt;=pageEnd;jj++){if(currentPageNo==jj){html+=&#39;&lt;span class=&quot;pagecurrent&quot;&gt;&#39;+jj+&#39;&lt;/span&gt;&#39;}else if(jj==1){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;&#39;+home_page+&#39;&quot;&gt;1&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;/search/label/&#39;+postLabel+&#39;?&amp;max-results=&#39;+perPage+&#39;&quot;&gt;1&lt;/a&gt;&lt;/span&gt;&#39;}}else{if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectpage(&#39;+jj+&#39;);return false&quot;&gt;&#39;+jj+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectlabel(&#39;+jj+&#39;);return false&quot;&gt;&#39;+jj+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}}
-if(pageEnd&lt;lastPageNo-1){html+=&#39;...&#39;}
-if(pageEnd&lt;lastPageNo){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; onclick=&quot;redirectpage(&#39;+lastPageNo+&#39;);return false&quot;&gt;&#39;+lastPageNo+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; onclick=&quot;redirectlabel(&#39;+lastPageNo+&#39;);return false&quot;&gt;&#39;+lastPageNo+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}
-var nextnumber=parseInt(currentPageNo)+1;if(currentPageNo&lt;(lastPageNo-1)){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a aria-label=&quot;Navigation&quot; href=&quot;#&quot; onclick=&quot;redirectpage(&#39;+nextnumber+&#39;);return false&quot;&gt;&#39;+nextText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectlabel(&#39;+nextnumber+&#39;);return false&quot;&gt;&#39;+nextText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}
-if(currentPageNo&lt;lastPageNo){if(currentPage==&quot;page&quot;){html+=&#39;&lt;span class=&quot;displaypageNum lastpage&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectpage(&#39;+lastPageNo+&#39;);return false&quot;&gt;&#39;+lastText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}else{html+=&#39;&lt;span class=&quot;displaypageNum lastpage&quot;&gt;&lt;a href=&quot;#&quot; aria-label=&quot;Navigation&quot; onclick=&quot;redirectlabel(&#39;+lastPageNo+&#39;);return false&quot;&gt;&#39;+lastText+&#39;&lt;/a&gt;&lt;/span&gt;&#39;}}
-var pageArea=document.getElementsByName(&quot;pageArea&quot;);var blogPager=document.getElementById(&quot;blog-pager&quot;);for(var p=0;p&lt;pageArea.length;p++){pageArea[p].innerHTML=html}
-if(pageArea&amp;&amp;pageArea.length&gt;0){html=&#39;&#39;}
+var home_page="/";
+if(typeof firstText=="undefined")firstText="First";if(typeof lastText=="undefined")lastText="Last";var noPage;var currentPage;var currentPageNo;var postLabel;pagecurrentg();function looppagecurrentg(pageInfo){var html='';pageNumber=parseInt(numPages / 2);if(pageNumber==numPages-pageNumber){numPages=pageNumber*2+1}
+pageStart=currentPageNo-pageNumber;if(pageStart<1)pageStart=1;lastPageNo=parseInt(pageInfo / perPage)+1;if(lastPageNo-1==pageInfo / perPage)lastPageNo=lastPageNo-1;pageEnd=pageStart+numPages-1;if(pageEnd>lastPageNo)pageEnd=lastPageNo;html+="<span class='showpageOf'>Page "+currentPageNo+' of '+lastPageNo+"</span>";var prevNumber=parseInt(currentPageNo)-1;if(currentPageNo>1){if(currentPage=="page"){html+='<span class="showpage firstpage"><a href="'+home_page+'">'+firstText+'</a></span>'}else{html+='<span class="displaypageNum firstpage"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">'+firstText+'</a></span>'}}
+if(currentPageNo>2){if(currentPageNo==3){if(currentPage=="page"){html+='<span class="showpage"><a href="'+home_page+'">'+prevText+'</a></span>'}else{html+='<span class="displaypageNum"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">'+prevText+'</a></span>'}}else{if(currentPage=="page"){html+='<span class="displaypageNum"><a href="#" aria-label="Navigation" onclick="redirectpage('+prevNumber+');return false">'+prevText+'</a></span>'}else{html+='<span class="displaypageNum"><a href="#" aria-label="Navigation" onclick="redirectlabel('+prevNumber+');return false">'+prevText+'</a></span>'}}}
+if(pageStart>1){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="'+home_page+'">1</a></span>'}else{html+='<span class="displaypageNum"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">1</a></span>'}}
+if(pageStart>2){html+=' ... '}
+for(var jj=pageStart;jj<=pageEnd;jj++){if(currentPageNo==jj){html+='<span class="pagecurrent">'+jj+'</span>'}else if(jj==1){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="'+home_page+'">1</a></span>'}else{html+='<span class="displaypageNum"><a href="/search/label/'+postLabel+'?&max-results='+perPage+'">1</a></span>'}}else{if(currentPage=="page"){html+='<span class="displaypageNum"><a href="#" aria-label="Navigation" onclick="redirectpage('+jj+');return false">'+jj+'</a></span>'}else{html+='<span class="displaypageNum"><a href="#" aria-label="Navigation" onclick="redirectlabel('+jj+');return false">'+jj+'</a></span>'}}}
+if(pageEnd<lastPageNo-1){html+='...'}
+if(pageEnd<lastPageNo){if(currentPage=="page"){html+='<span class="displaypageNum"><a href="#" onclick="redirectpage('+lastPageNo+');return false">'+lastPageNo+'</a></span>'}else{html+='<span class="displaypageNum"><a href="#" onclick="redirectlabel('+lastPageNo+');return false">'+lastPageNo+'</a></span>'}}
+var nextnumber=parseInt(currentPageNo)+1;if(currentPageNo<(lastPageNo-1)){if(currentPage=="page"){html+='<span class="displaypageNum"><a aria-label="Navigation" href="#" onclick="redirectpage('+nextnumber+');return false">'+nextText+'</a></span>'}else{html+='<span class="displaypageNum"><a href="#" aria-label="Navigation" onclick="redirectlabel('+nextnumber+');return false">'+nextText+'</a></span>'}}
+if(currentPageNo<lastPageNo){if(currentPage=="page"){html+='<span class="displaypageNum lastpage"><a href="#" aria-label="Navigation" onclick="redirectpage('+lastPageNo+');return false">'+lastText+'</a></span>'}else{html+='<span class="displaypageNum lastpage"><a href="#" aria-label="Navigation" onclick="redirectlabel('+lastPageNo+');return false">'+lastText+'</a></span>'}}
+var pageArea=document.getElementsByName("pageArea");var blogPager=document.getElementById("blog-pager");for(var p=0;p<pageArea.length;p++){pageArea[p].innerHTML=html}
+if(pageArea&&pageArea.length>0){html=''}
 if(blogPager){blogPager.innerHTML=html}}
 function totalcountdata(root){var feed=root.feed;var totaldata=parseInt(feed.openSearch$totalResults.$t,10);looppagecurrentg(totaldata)}
-function pagecurrentg(){var thisUrl=urlactivepage;if(thisUrl.indexOf(&quot;/search/label/&quot;)!=-1){if(thisUrl.indexOf(&quot;?updated-max&quot;)!=-1){postLabel=thisUrl.substring(thisUrl.indexOf(&quot;/search/label/&quot;)+14,thisUrl.indexOf(&quot;?updated-max&quot;))}else{postLabel=thisUrl.substring(thisUrl.indexOf(&quot;/search/label/&quot;)+14,thisUrl.indexOf(&quot;?&amp;max&quot;))}}
-if(thisUrl.indexOf(&quot;?q=&quot;)==-1&amp;&amp;thisUrl.indexOf(&quot;.html&quot;)==-1){if(thisUrl.indexOf(&quot;/search/label/&quot;)==-1){currentPage=&quot;page&quot;;if(urlactivepage.indexOf(&quot;#PageNo=&quot;)!=-1){currentPageNo=urlactivepage.substring(urlactivepage.indexOf(&quot;#PageNo=&quot;)+8,urlactivepage.length)}else{currentPageNo=1}
-document.write(&quot;&lt;script src=\&quot;&quot;+home_page+&quot;feeds/posts/summary?max-results=1&amp;alt=json-in-script&amp;callback=totalcountdata\&quot;&gt;&lt;\/script&gt;&quot;)}else{currentPage=&quot;label&quot;;if(thisUrl.indexOf(&quot;&amp;max-results=&quot;)==-1){perPage=20}
-if(urlactivepage.indexOf(&quot;#PageNo=&quot;)!=-1){currentPageNo=urlactivepage.substring(urlactivepage.indexOf(&quot;#PageNo=&quot;)+8,urlactivepage.length)}else{currentPageNo=1}
-document.write(&#39;&lt;script src=&quot;&#39;+home_page+&#39;feeds/posts/summary/-/&#39;+postLabel+&#39;?alt=json-in-script&amp;callback=totalcountdata&amp;max-results=1&quot; &gt;&lt;\/script&gt;&#39;)}}}
-function redirectpage(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numberpage;var nameBody=document.getElementsByTagName(&#39;head&#39;)[0];var newInclude=document.createElement(&#39;script&#39;);newInclude.type=&#39;text/javascript&#39;;newInclude.setAttribute(&quot;src&quot;,home_page+&quot;feeds/posts/summary?start-index=&quot;+jsonstart+&quot;&amp;max-results=1&amp;alt=json-in-script&amp;callback=finddatepost&quot;);nameBody.appendChild(newInclude)}
-function redirectlabel(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numberpage;var nameBody=document.getElementsByTagName(&#39;head&#39;)[0];var newInclude=document.createElement(&#39;script&#39;);newInclude.type=&#39;text/javascript&#39;;newInclude.setAttribute(&quot;src&quot;,home_page+&quot;feeds/posts/summary/-/&quot;+postLabel+&quot;?start-index=&quot;+jsonstart+&quot;&amp;max-results=1&amp;alt=json-in-script&amp;callback=finddatepost&quot;);nameBody.appendChild(newInclude)}
-function finddatepost(root){post=root.feed.entry[0];var timestamp1=post.published.$t.substring(0,19)+post.published.$t.substring(23,29);var timestamp=encodeURIComponent(timestamp1);if(currentPage==&quot;page&quot;){var pAddress=&quot;/search?updated-max=&quot;+timestamp+&quot;&amp;max-results=&quot;+perPage+&quot;#PageNo=&quot;+noPage}else{var pAddress=&quot;/search/label/&quot;+postLabel+&quot;?updated-max=&quot;+timestamp+&quot;&amp;max-results=&quot;+perPage+&quot;#PageNo=&quot;+noPage}
+function pagecurrentg(){var thisUrl=urlactivepage;if(thisUrl.indexOf("/search/label/")!=-1){if(thisUrl.indexOf("?updated-max")!=-1){postLabel=thisUrl.substring(thisUrl.indexOf("/search/label/")+14,thisUrl.indexOf("?updated-max"))}else{postLabel=thisUrl.substring(thisUrl.indexOf("/search/label/")+14,thisUrl.indexOf("?&max"))}}
+if(thisUrl.indexOf("?q=")==-1&&thisUrl.indexOf(".html")==-1){if(thisUrl.indexOf("/search/label/")==-1){currentPage="page";if(urlactivepage.indexOf("#PageNo=")!=-1){currentPageNo=urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length)}else{currentPageNo=1}
+document.write("<script src=\""+home_page+"feeds/posts/summary?max-results=1&alt=json-in-script&callback=totalcountdata\"><\/script>")}else{currentPage="label";if(thisUrl.indexOf("&max-results=")==-1){perPage=20}
+if(urlactivepage.indexOf("#PageNo=")!=-1){currentPageNo=urlactivepage.substring(urlactivepage.indexOf("#PageNo=")+8,urlactivepage.length)}else{currentPageNo=1}
+document.write('<script src="'+home_page+'feeds/posts/summary/-/'+postLabel+'?alt=json-in-script&callback=totalcountdata&max-results=1" ><\/script>')}}}
+function redirectpage(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numberpage;var nameBody=document.getElementsByTagName('head')[0];var newInclude=document.createElement('script');newInclude.type='text/javascript';newInclude.setAttribute("src",home_page+"feeds/posts/summary?start-index="+jsonstart+"&max-results=1&alt=json-in-script&callback=finddatepost");nameBody.appendChild(newInclude)}
+function redirectlabel(numberpage){jsonstart=(numberpage-1)*perPage;noPage=numberpage;var nameBody=document.getElementsByTagName('head')[0];var newInclude=document.createElement('script');newInclude.type='text/javascript';newInclude.setAttribute("src",home_page+"feeds/posts/summary/-/"+postLabel+"?start-index="+jsonstart+"&max-results=1&alt=json-in-script&callback=finddatepost");nameBody.appendChild(newInclude)}
+function finddatepost(root){post=root.feed.entry[0];var timestamp1=post.published.$t.substring(0,19)+post.published.$t.substring(23,29);var timestamp=encodeURIComponent(timestamp1);if(currentPage=="page"){var pAddress="/search?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}else{var pAddress="/search/label/"+postLabel+"?updated-max="+timestamp+"&max-results="+perPage+"#PageNo="+noPage}
 location.href=pAddress}
-/*]]&gt;*/
-&lt;/script&gt;</b:widget-setting>
+/*]]]]><![CDATA[>*/
+</script>]]></b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
           <b:if cond='data:view.isMultipleItems'>
@@ -1892,16 +1883,21 @@ $(document).ready(function() {$('a[name="ad-center-post-slot1"]').before($("#par
  		<b:section class='sidebar' id='sidebar' name='Sidebar Wrapper' showaddelement='yes'>
 <b:widget id='HTML9' locked='false' title='' type='HTML' visible='true'>
   <b:widget-settings>
-    <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 250,
-		&#39;width&#39; : 300,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+    <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3RpZ2FyYXR1cy5qcyI+IDwvc2NyaXB0Pg=="));</script>
+
+
+   <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4720533,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4720533&amp;101" alt="" border="0" /></a></noscript>
+<!-- Histats.com  END  -->]]></b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -2059,7 +2055,7 @@ $(document).ready(function() {$('a[name="ad-center-post-slot1"]').before($("#par
   <b:section class='bot-widget' id='widget-bot' maxwidgets='1' name='Bottom Ads Widget' showaddelement='yes'>
     <b:widget id='HTML5' locked='true' title='[ADS] Bottom Ads' type='HTML' visible='true'>
       <b:widget-settings>
-        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+        <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL2xpbWFwdWx1aHRpZ2FkdWFwdWx1aC5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -2106,14 +2102,14 @@ $(document).ready(function() {$('a[name="ad-center-post-slot1"]').before($("#par
   		<b:section class='footer-bottom foo-right' id='footer-bawah3' name='Right Footer Widget' showaddelement='yes'>
 <b:widget id='HTML7' locked='false' title='Social Media' type='HTML' visible='true'>
   <b:widget-settings>
-    <b:widget-setting name='content'>&lt;div class=&#39;social-footer&#39;&gt;
-&lt;ul class=&#39;social-media-widget clearfix&#39;&gt;
-&lt;li&gt;&lt;a class=&#39;facebook&#39; href=&#39;#&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Facebook&#39;&gt;&lt;i class=&#39;fab fa-facebook-f fa-2x&#39;/&gt;&lt;span&gt;Facebook&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#39;twitter&#39; href=&#39;#&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Twitter&#39;&gt;&lt;i class=&#39;fab fa-twitter fa-2x&#39;/&gt;&lt;span&gt;Twitter&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#39;instagram&#39; href=&#39;#&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Instagram&#39;&gt;&lt;i class=&#39;fab fa-instagram fa-2x&#39;/&gt;&lt;span&gt;Instagram&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#39;youtube&#39; data-title=&#39;Youtube&#39; href=&#39;#&#39; rel=&#39;nofollow&#39; target=&#39;_blank&#39; title=&#39;Youtube&#39;&gt;&lt;i class=&#39;fab fa-youtube fa-2x&#39;/&gt;&lt;span&gt;Youtube&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;</b:widget-setting>
+    <b:widget-setting name='content'><![CDATA[<div class='social-footer'>
+<ul class='social-media-widget clearfix'>
+<li><a class='facebook' href='#' rel='nofollow' target='_blank' title='Facebook'><i class='fab fa-facebook-f fa-2x'/><span>Facebook</span></i></a></li>
+<li><a class='twitter' href='#' rel='nofollow' target='_blank' title='Twitter'><i class='fab fa-twitter fa-2x'/><span>Twitter</span></i></a></li>
+<li><a class='instagram' href='#' rel='nofollow' target='_blank' title='Instagram'><i class='fab fa-instagram fa-2x'/><span>Instagram</span></i></a></li>
+<li><a class='youtube' data-title='Youtube' href='#' rel='nofollow' target='_blank' title='Youtube'><i class='fab fa-youtube fa-2x'/><span>Youtube</span></i></a></li>
+</ul>
+</div>]]></b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -2210,5 +2206,6 @@ function searchboxshowhide(){var e=document.getElementById("box");"block"===e.st
 
 //]]>
 </script>
+<script>document.write(atob(&quot;PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgeyQoJiMzOTtpbWcjY2xvc2VkJiMzOTspLmNsaWNrKGZ1bmN0aW9uKCl7JCgmIzM5OyNidG1fYmFubmVyJiMzOTspLmhpZGUoOTApO30pO30pOwo8L3NjcmlwdD4KICAgICAgICA8IS0tc3RhcnQ6IGZsb2F0aW5nIGFkcy0tPgogICAgICAgIDxkaXYgaWQ9J2Zsb2F0YWRzJyBzdHlsZT0nd2lkdGg6MTAwJTttYXJnaW46YXV0bzsgdGV4dC1hbGlnbjpjZW50ZXI7ZmxvYXQ6bm9uZTtvdmVyZmxvdzpoaWRkZW47IGRpc3BsYXk6c2Nyb2xsO3Bvc2l0aW9uOmZpeGVkOyBib3R0b206MDt6LWluZGV4Ojk5OTknPgogICAgICAgICA8ZGl2PjxhIGlkPSdjbG9zZS1mbG9hdGFkcycgb25jbGljaz0nZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJmFwb3M7ZmxvYXRhZHMmYXBvczspLnN0eWxlLmRpc3BsYXkgPSAmYXBvcztub25lJmFwb3M7Oycgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+PGltZyBhbHQ9J2Nsb3NlJyBzcmM9J2h0dHBzOi8vMy5icC5ibG9nc3BvdC5jb20vLVpaU2FjREhMV2xNL1ZodmxLVE1qYkxJL0FBQUFBQUFBRjJNL1VEelU0cnJ2Y2FJL3MxNjAwL2J0bl9jbG9zZS5naWYnIHRpdGxlPSdjbG9zZSBidXR0b24nLz48L2E+PC9kaXY+CiAgICA8ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcjtkaXNwbGF5OmJsb2NrO21heC13aWR0aDo3MjhweDtoZWlnaHQ6YXV0bztvdmVyZmxvdzpoaWRkZW47bWFyZ2luOmF1dG8nPgo8IS0tU2NyaXB0IGlrbGFuLS0+CjxzY3JpcHQgc3JjPSdodHRwczovL3BhZ3N1bGF0LmNvbS9pa2xhbi9saW1hcHVsdWh0aWdhZHVhcHVsdWguanMnPiA8L3NjcmlwdD4KPCEtLUFraGlyIHNjcmlwdCBpa2xhbi0tPgogICAgICAgIDwvZGl2PgogPC9kaXY+PCEtLWVuZDogZmxvYXRpbmcgYWRzLS0+&quot;));</script>  
 </body>
 </html>
