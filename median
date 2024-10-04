@@ -1145,17 +1145,17 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
         <b:section cond='!data:view.isPreview' id='notif-widget' maxwidgets='1' showaddelement='false'>
           <b:widget id='HTML0' locked='true' title='Notification' type='HTML' version='2' visible='false'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]--&gt;
+              <b:widget-setting name='content'><![CDATA[<!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]-->
 
-&lt;!--[ Alternatif content with button link ]--&gt;
-&lt;div class=&#39;ntfA&#39;&gt; 
-  &lt;span&gt;
+<!--[ Alternatif content with button link ]-->
+<div class='ntfA'> 
+  <span>
 
-Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;dofollow&quot; href=&#39;/p/contact.html&#39;&gt;dapatkan disini.&lt;/a&gt;--&gt;
+Download template blog balahatun.com median ui redesign <!--<a rel="dofollow" href='/p/contact.html'>dapatkan disini.</a>-->
 
-  &lt;/span&gt; 
-  &lt;a href=&#39;/p/contact.html&#39;&gt;Get now!&lt;/a&gt;
-&lt;/div&gt;</b:widget-setting>
+  </span> 
+  <a href='/p/contact.html'>Get now!</a>
+</div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <input class='ntfI hidden' id='forNft' type='checkbox'/>
@@ -1179,11 +1179,11 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
               
               <!--[ Header widget ]-->
               <b:section class='headN' id='header-title' maxwidgets='1' showaddelement='false'>
-                <b:widget id='Header1' locked='true' title='tahimedia (Header)' type='Header' version='2' visible='true'>
+                <b:widget id='Header1' locked='true' title='kita makaka (Header)' type='Header' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='displayUrl'/>
                     <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                    <b:widget-setting name='sectionWidth'>453</b:widget-setting>
+                    <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
                     <b:widget-setting name='useImage'>false</b:widget-setting>
                     <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                     <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -1435,7 +1435,7 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
 <b:widget id='PageList002' locked='true' title='Additional Menu' type='PageList' version='2' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":1,"title":"Disclaimer"},"link0":{"href":"#","position":0,"title":"Sitemap"},"link2":{"href":"#","position":2,"title":"Kebijakan Privasi"}}]]></b:widget-setting>
-    <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
+    <b:widget-setting name='homeTitle'>Home</b:widget-setting>
   </b:widget-settings>
   <b:includable id='main'>
                       <b:include name='content'/>
@@ -1647,7 +1647,7 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
                   <b:widget id='PageList000' locked='true' title='Navigation Menu (Simple)' type='PageList' version='2' visible='false'>
                     <b:widget-settings>
                       <b:widget-setting name='pageListJson'><![CDATA[{"link0":{"href":"#","position":0,"title":"Buy this template"}}]]></b:widget-setting>
-                      <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
+                      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
                     </b:widget-settings>
                     <b:includable id='main'>
                       <b:include name='content'/>
@@ -1757,16 +1757,7 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
                   <b:section id='horizontal-ad' maxwidgets='3' showaddelement='true'>
                     <b:widget id='HTML91' locked='true' title='Under header ad' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
-                        <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;b386b856125e0686abeea3c7fe7bdbc8&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 90,
-		&#39;width&#39; : 728,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/b386b856125e0686abeea3c7fe7bdbc8/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+                        <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3R1anVkdWFsYXBhbi5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
                       </b:widget-settings>
                       <b:includable id='main'>
                         <b:if cond='data:content != &quot;&quot;'>
@@ -1926,7 +1917,7 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
                   <b:section cond='data:view.isHomepage' id='top-widget' showaddelement='true'>
                     <b:widget cond='!data:view.isPreview' id='HTML92' locked='true' title='Ad placement' type='HTML' version='2' visible='false'>
                       <b:widget-settings>
-                        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+                        <b:widget-setting name='content'/>
                       </b:widget-settings>
                       <b:includable id='main'>
                         <div class='widget-content'>
@@ -2060,17 +2051,6 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
                   </b:section>
                 
                   <b:section id='main-widget' showaddelement='true'>
-                    <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
-                      <b:widget-settings>
-                        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
-                      </b:widget-settings>
-                      <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-                    </b:widget>
                     <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest and (data:view.isHomepage or data:view.isPost)' id='HTML93' locked='true' title='Ad placement' type='HTML' version='2' visible='false'>
                       <b:widget-settings>
                         <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
@@ -2087,19 +2067,19 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
                         </div>
                       </b:includable>
                     </b:widget>
-                    <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
+                    <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                         <b:widget-setting name='commentLabel'>Comment</b:widget-setting>
-                        <b:widget-setting name='style.textcolor'>#767676</b:widget-setting>
+                        <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                         <b:widget-setting name='authorLabel'>Written By</b:widget-setting>
                         <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-                        <b:widget-setting name='style.urlcolor'>#fffdfc</b:widget-setting>
+                        <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='showAuthor'>true</b:widget-setting>
-                        <b:widget-setting name='style.linkcolor'>#4285f4</b:widget-setting>
+                        <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-                        <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+                        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='timestampLabel'>On</b:widget-setting>
                         <b:widget-setting name='reactionsLabel'/>
                         <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
@@ -2110,7 +2090,7 @@ Download template blog balahatun.com median ui redesign &lt;!--&lt;a rel=&quot;d
                         <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                         <b:widget-setting name='postsPerAd'>1</b:widget-setting>
                         <b:widget-setting name='showBacklinks'>false</b:widget-setting>
-                        <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+                        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='showInlineAds'>false</b:widget-setting>
                         <b:widget-setting name='showReactions'>false</b:widget-setting>
                       </b:widget-settings>
@@ -3438,18 +3418,17 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
   </div>
 </b:includable>
                     </b:widget>
+                    <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
+                      <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+                    </b:widget>
                     <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML01' locked='true' title='Middle post ad 01' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
-                        <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
-	atOptions = {
-		&#39;key&#39; : &#39;bade0b1ea33c24096f9f72959e267fb2&#39;,
-		&#39;format&#39; : &#39;iframe&#39;,
-		&#39;height&#39; : 250,
-		&#39;width&#39; : 300,
-		&#39;params&#39; : {}
-	};
-	document.write(&#39;&lt;scr&#39; + &#39;ipt type=&quot;text/javascript&quot; src=&quot;http&#39; + (location.protocol === &#39;https:&#39; ? &#39;s&#39; : &#39;&#39;) + &#39;://juraganelite.github.io/bade0b1ea33c24096f9f72959e267fb2/invoke.js&quot;&gt;&lt;/scr&#39; + &#39;ipt&gt;&#39;);
-&lt;/script&gt;</b:widget-setting>
+                        <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL3RpZ2FyYXR1cy5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
                       </b:widget-settings>
                       <b:includable id='main'>
                         <div class='widget-content'>
@@ -3466,9 +3445,9 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
                         </div>
                       </b:includable>
                     </b:widget>
-                    <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML02' locked='true' title='Middle post ad 01' type='HTML' version='2' visible='false'>
+                    <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML02' locked='true' title='' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
-                        <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+                        <b:widget-setting name='content'><![CDATA[<script>document.write(atob("PHNjcmlwdCBzcmM9Imh0dHBzOi8vcGFnc3VsYXQuY29tL2lrbGFuL2xpbWFwdWx1aHRpZ2FkdWFwdWx1aC5qcyI+IDwvc2NyaXB0Pg=="));</script>]]></b:widget-setting>
                       </b:widget-settings>
                       <b:includable id='main'>
                         <div class='widget-content'>
@@ -3503,6 +3482,28 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
                           </b:if>
                         </div>
                       </b:includable>
+                    </b:widget>
+                    <b:widget id='HTML2' locked='false' title='' type='HTML' visible='true'>
+                      <b:widget-settings>
+                        <b:widget-setting name='content'><![CDATA[<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4720533,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4720533&amp;101" alt="" border="0" /></a></noscript>
+<!-- Histats.com  END  -->]]></b:widget-setting>
+                      </b:widget-settings>
+                      <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
                     </b:widget>
                   </b:section>
                 </main>
@@ -3782,9 +3783,9 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
               
                       <!--[ Sidebar sticky ]-->
                       <b:section class='sideSticky' cond='!data:view.isPreview' id='side-sticky' showaddelement='true'>
-                        <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest' id='HTML95' locked='true' title='Sticky ad(desktop only)' type='HTML' version='2' visible='true'>
+                        <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest' id='HTML95' locked='true' title='Sticky ad(desktop only)' type='HTML' version='2' visible='false'>
                           <b:widget-settings>
-                            <b:widget-setting name='content'><![CDATA[<script src="https://juraganelite.github.io/06/bb/84/06bb848e416b7e8f46f87eff6ec98b33.js"> </script>]]></b:widget-setting>
+                            <b:widget-setting name='content'/>
                           </b:widget-settings>
                           <b:includable id='main'>
                             <b:if cond='data:content != &quot;&quot;'>
@@ -3946,8 +3947,8 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
           <b:section cond='data:view.isLayoutMode or data:blog.isMobileRequest' id='anchor-ad' showaddelement='false'>
             <b:widget id='HTML99' locked='true' title='Anchor ad placement(mobile only)' type='HTML' version='2' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'>&lt;ins class=&#39;adsbygoogle&#39; data-ad-client=&#39;ca-pub-XXXXXX&#39; data-ad-format=&#39;horizontal&#39; data-ad-slot=&#39;XXXXXXX&#39; data-full-width-responsive=&#39;false&#39; style=&#39;display:block;text-align:center&#39;/&gt;
-              &lt;script&gt;(adsbygoogle = window.adsbygoogle || []).push({});&lt;/script&gt;&lt;/ins&gt;</b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[<ins class='adsbygoogle' data-ad-client='ca-pub-XXXXXX' data-ad-format='horizontal' data-ad-slot='XXXXXXX' data-full-width-responsive='false' style='display:block;text-align:center'/>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script></ins>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
                 <!--[ Sticky ad ]-->
@@ -3976,9 +3977,9 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
       <b:section class='erroC' cond='data:view.isLayoutMode or data:view.isError' id='error-404' showaddelement='false'>
         <b:widget id='HTML404' locked='true' title='Take me back' type='HTML' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;h3&gt;&lt;span&gt;404&lt;/span&gt;Something Wrong!&lt;/h3&gt;
+            <b:widget-setting name='content'><![CDATA[<h3><span>404</span>Something Wrong!</h3>
 
-&lt;p&gt;The page you&#39;ve requested can&#39;t be found. Why don&#39;t you browse around?&lt;/p&gt;</b:widget-setting>
+<p>The page you've requested can't be found. Why don't you browse around?</p>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <data:content/>
@@ -4069,5 +4070,6 @@ Treat the creator to coffee by giving a small donation. click the arrow icon abo
        </b:if>
 
       <!--[ </body> close ]-->
+<script>document.write(atob(&quot;PHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnPgogICAgICAgICQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgeyQoJiMzOTtpbWcjY2xvc2VkJiMzOTspLmNsaWNrKGZ1bmN0aW9uKCl7JCgmIzM5OyNidG1fYmFubmVyJiMzOTspLmhpZGUoOTApO30pO30pOwo8L3NjcmlwdD4KICAgICAgICA8IS0tc3RhcnQ6IGZsb2F0aW5nIGFkcy0tPgogICAgICAgIDxkaXYgaWQ9J2Zsb2F0YWRzJyBzdHlsZT0nd2lkdGg6MTAwJTttYXJnaW46YXV0bzsgdGV4dC1hbGlnbjpjZW50ZXI7ZmxvYXQ6bm9uZTtvdmVyZmxvdzpoaWRkZW47IGRpc3BsYXk6c2Nyb2xsO3Bvc2l0aW9uOmZpeGVkOyBib3R0b206MDt6LWluZGV4Ojk5OTknPgogICAgICAgICA8ZGl2PjxhIGlkPSdjbG9zZS1mbG9hdGFkcycgb25jbGljaz0nZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJmFwb3M7ZmxvYXRhZHMmYXBvczspLnN0eWxlLmRpc3BsYXkgPSAmYXBvcztub25lJmFwb3M7Oycgc3R5bGU9J2N1cnNvcjpwb2ludGVyOyc+PGltZyBhbHQ9J2Nsb3NlJyBzcmM9J2h0dHBzOi8vMy5icC5ibG9nc3BvdC5jb20vLVpaU2FjREhMV2xNL1ZodmxLVE1qYkxJL0FBQUFBQUFBRjJNL1VEelU0cnJ2Y2FJL3MxNjAwL2J0bl9jbG9zZS5naWYnIHRpdGxlPSdjbG9zZSBidXR0b24nLz48L2E+PC9kaXY+CiAgICA8ZGl2IHN0eWxlPSd0ZXh0LWFsaWduOmNlbnRlcjtkaXNwbGF5OmJsb2NrO21heC13aWR0aDo3MjhweDtoZWlnaHQ6YXV0bztvdmVyZmxvdzpoaWRkZW47bWFyZ2luOmF1dG8nPgo8IS0tU2NyaXB0IGlrbGFuLS0+CjxzY3JpcHQgc3JjPSdodHRwczovL3BhZ3N1bGF0LmNvbS9pa2xhbi9saW1hcHVsdWh0aWdhZHVhcHVsdWguanMnPiA8L3NjcmlwdD4KPCEtLUFraGlyIHNjcmlwdCBpa2xhbi0tPgogICAgICAgIDwvZGl2PgogPC9kaXY+PCEtLWVuZDogZmxvYXRpbmcgYWRzLS0+&quot;));</script>    
       &lt;!--</body>--&gt;&lt;/body&gt;
 </html>
